@@ -1,0 +1,419 @@
+{
+  "Navbar": {
+    "nav": {
+      "elements": "Elements",
+      "about": "About",
+      "paths": "Paths",
+      "mission": "Mission",
+      "contact": "Contact"
+    },
+    "lang": {
+      "en": "EN",
+      "es": "ES"
+    },
+    "cta": "Free Assessment"
+  },
+  "Hero": {
+    "alt_image": "Alejandro climbing in Huaraz",
+    "subtitle": "Godai Training",
+    "title_line1": "TRAIN FOR",
+    "title_line2": "THE VERTICAL",
+    "title_line3": "WORLD",
+    "description": "Helping climbers and rope access technicians build strength, resilience and longevity for the demands of the vertical world.",
+    "sub_description": "Sports science meets climbing, rope access and the pursuit of mastery.",
+    "credentials": {
+      "sports_science": "Sports Science Professional",
+      "climber": "Climber",
+      "rope_access": "IRATA Rope Access"
+    },
+    "ctas": {
+      "start": "Start Training",
+      "learn_more": "Learn More"
+    },
+    "scroll": "Scroll"
+  },
+  "FiveElements": {
+    "section_title": "The Godai Method",
+    "main_title_line1": "The Five Elements of",
+    "main_title_line2": "the Vertical Athlete",
+    "section_description": "Godai Training is built around five essential qualities that every climber, rope access technician and adventurer must develop to perform at their highest level.",
+    "footer_text": "Train the body. {resilience} Master movement. {height}",
+    "footer_resilience": " Develop resilience.",
+    "footer_height": " Perform at height.",
+    "elements": {
+      "chi": {
+        "title": "EARTH",
+        "subtitle": "Foundation",
+        "description": "Without a solid foundation, nothing else can be built. Earth represents the strength, resilience and structural integrity required to support every movement at height.",
+        "b1": "Strength",
+        "b2": "Joint Integrity",
+        "b3": "Structural Resilience",
+        "b4": "Foundational Capacity"
+      },
+      "sui": {
+        "title": "WATER",
+        "subtitle": "Adaptability",
+        "description": "The vertical world is unpredictable. Water represents mobility, coordination and the ability to adapt efficiently to changing environments.",
+        "b1": "Mobility",
+        "b2": "Coordination",
+        "b3": "Adaptability",
+        "b4": "Movement Control"
+      },
+      "ka": {
+        "title": "FIRE",
+        "subtitle": "Capacity",
+        "description": "Fire is the engine. It represents the endurance, energy and work capacity required for long days on rope and demanding adventures.",
+        "b1": "Work Capacity",
+        "b2": "Endurance",
+        "b3": "Energy Systems",
+        "b4": "Resilience"
+      },
+      "fu": {
+        "title": "WIND",
+        "subtitle": "Movement",
+        "description": "The best climbers and technicians do not waste energy. Wind represents efficiency, balance and fluid movement.",
+        "b1": "Technique",
+        "b2": "Balance",
+        "b3": "Efficiency",
+        "b4": "Economy of Movement"
+      },
+      "ku": {
+        "title": "VOID",
+        "subtitle": "Mastery",
+        "description": "Mastery is not strength. It is awareness, focus and the ability to make sound decisions under pressure.",
+        "b1": "Focus",
+        "b2": "Risk Management",
+        "b3": "Self-Awareness",
+        "b4": "Decision Making"
+      }
+    }
+  },
+  "MeetAlejandro": {
+    "subtitle": "Meet Alejandro",
+    "title_line1": "The Story Behind",
+    "title_line2": "Godai Training",
+    "meta_description": "Sports & Recreation Professional • Climber • IRATA Technician • Coach",
+    "story": {
+      "p1": "I was born in Pereira, Colombia, surrounded by mountains, rivers and nature. Growing up among the Andes developed a deep connection with adventure and the outdoors that still shapes my life today.",
+      "p2": "Since childhood I have been fascinated by movement. I climbed trees, explored rivers, spent countless hours outdoors, and discovered parkour at ten years old. Later I trained in athletics, constantly searching for new ways to understand and challenge the human body.",
+      "p3": "As I grew older, my curiosity expanded beyond physical performance. Buddhism inspired me to become a better person, and years later Stoicism gave me practical tools to face adversity with purpose. Together they shaped a belief that still guides my work today.",
+      "quote": "True performance is built through the balance of body, mind and spirit.",
+      "p4": "That philosophy led me to pursue a degree in Sports and Recreation Sciences, where I began building a scientific understanding of human performance, training and long-term athletic development.",
+      "p5": "During those years I discovered rope systems, rappelling and adventure sports. What started as curiosity gradually became a calling. Through technical training and field experience, I built the foundations that eventually led me into rope access and IRATA.",
+      "p6": "Around the same time, a close friend introduced me to rock climbing. Since then, climbing has become one of the greatest teachers in my life. It continues to challenge me physically, mentally and emotionally, while constantly reminding me how much there is still to learn.",
+      "p7": "Godai Training was born from that journey.",
+      "p8": "Today my mission is to help climbers, rope access technicians and adventurers become stronger, move better, perform longer and develop the resilience required to thrive in the vertical world."
+    },
+    "milestones": {
+      "m1": "🏔 Born in Pereira, Colombia",
+      "m2": "🎓 Sports & Recreation Sciences",
+      "m3": "🧗 Rock Climber",
+      "m4": "🪢 IRATA Level 1",
+      "m5": "📚 Lifelong Student"
+    },
+    "philosophy": {
+      "subtitle": "Philosophy",
+      "title": "The Three Pillars",
+      "body": {
+        "title": "BODY",
+        "v1": "Strength",
+        "v2": "Resilience",
+        "v3": "Movement"
+      },
+      "mind": {
+        "title": "MIND",
+        "v1": "Focus",
+        "v2": "Awareness",
+        "v3": "Discipline"
+      },
+      "spirit": {
+        "title": "SPIRIT",
+        "v1": "Purpose",
+        "v2": "Adventure",
+        "v3": "Growth"
+      },
+      "footer_quote": "True performance is built through the balance of body, mind and spirit."
+    },
+    "manifesto": {
+      "subtitle": "Godai Philosophy",
+      "p1": "I don't believe training is about chasing numbers.",
+      "p2": "I believe it is about becoming capable.",
+      "p3": "Capable of climbing higher.",
+      "p4": "Capable of enduring longer.",
+      "p5": "Capable of adapting when conditions change.",
+      "p6": "Capable of facing uncertainty with confidence.",
+      "p7": "Because strength alone is not enough.",
+      "p8": "The vertical world demands resilience, movement, awareness and mastery.",
+      "footer_bold": "That is why Godai exists.",
+      "headline_1": "THE PURSUIT",
+      "headline_2": "OF MASTERY",
+      "headline_3": "HAS NO",
+      "headline_4": "FINISH LINE.",
+      "path_ahead": "Only more path ahead."
+    }
+  },
+  "WhoIHelp": {
+    "subtitle": "Who I Help",
+    "title_line1": "Built For The",
+    "title_line2": "Vertical World",
+    "description": "Godai Training is designed for people who challenge themselves in environments where strength, resilience and adaptability truly matter.",
+    "profiles": {
+      "climbers": {
+        "title": "Climbers",
+        "description": "Develop strength, mobility and endurance for better performance on rock, plastic and alpine environments."
+      },
+      "rope_access": {
+        "title": "Rope Access Technicians",
+        "description": "Build the physical capacity required for long days on rope while reducing fatigue and injury risk."
+      },
+      "mountain": {
+        "title": "Mountain Athletes",
+        "description": "Prepare your body for altitude, technical terrain and demanding outdoor objectives."
+      },
+      "adventure": {
+        "title": "Adventurers",
+        "description": "Become stronger, more resilient and capable for every challenge beyond the trail."
+      }
+    },
+    "footer": {
+      "headline_line1": "YOU DON'T NEED TO BE",
+      "headline_line2": "AN ELITE ATHLETE.",
+      "subline": "You only need the willingness to improve."
+    }
+  },
+  "WhyTrainDifferently": {
+    "subtitle": "Why Train Differently?",
+    "title_line1": "The Vertical Athlete",
+    "title_line2": "Requires More",
+    "cards": {
+      "c1": {
+        "title": "Most people train for aesthetics",
+        "description": "They focus on appearance while ignoring the physical demands of their environment."
+      },
+      "c2": {
+        "title": "Athletes train for performance",
+        "description": "They develop specific qualities to perform better in their sport."
+      },
+      "c3": {
+        "title": "Vertical athletes need both",
+        "description": "Strength, endurance, mobility and resilience must work together when the consequences are real."
+      }
+    },
+    "content": {
+      "p1": "Climbing, rope access and mountain environments place unique demands on the body.",
+      "bold_statement": "Strength alone is not enough.",
+      "p2": "You need movement efficiency, work capacity, mobility, resilience and the ability to perform under fatigue.",
+      "p3": "Godai Training combines sports science, climbing experience and rope access knowledge to prepare you for the realities of the vertical world."
+    },
+    "cta": {
+      "headline_line1": "READY TO BUILD",
+      "headline_line2": "YOUR FOUNDATION?",
+      "button": "Explore The Paths"
+    }
+  },
+  "TrainingPaths": {
+    "subtitle": "Choose Your Path",
+    "title_line1": "Every Journey",
+    "title_line2": "Begins Somewhere",
+    "description": "Whether you're building your foundation, pursuing performance or striving for mastery, there is a path designed for your stage of development.",
+    "plans": {
+      "foundation": {
+        "name": "FOUNDATION",
+        "element": "CHI • EARTH",
+        "tagline": "Build the base that supports everything else.",
+        "description": "The ideal starting point for athletes who want to stop improvising and start progressing with purpose.",
+        "features": {
+          "f1": "3 training sessions per week",
+          "f2": "Personalized programming",
+          "f3": "Equipment adaptation",
+          "f4": "Goal-oriented progression",
+          "f5": "Email support"
+        },
+        "cta": "Build Your Foundation",
+        "whatsapp_message": "Hi Alejandro! I want to start my training process with the Foundation plan. Can you give me more details?"
+      },
+      "performance": {
+        "name": "PERFORMANCE",
+        "element": "EARTH • WATER • FIRE",
+        "badge": "MOST POPULAR",
+        "tagline": "Strength, mobility and durability for life at height.",
+        "description": "The perfect balance between strength, mobility and resilience for climbers and rope access technicians.",
+        "features": {
+          "f1": "3-4 strength sessions",
+          "f2": "2 mobility & prehab sessions",
+          "f3": "Joint health protocols",
+          "f4": "Recovery strategies",
+          "f5": "Performance progression",
+          "f6": "Priority support"
+        },
+        "cta": "Reach Peak Performance",
+        "whatsapp_message": "Hi Alejandro! I'm interested in the Performance plan to boost my physical capacities. How do we start?"
+      },
+      "mastery": {
+        "name": "MASTERY",
+        "element": "ALL FIVE ELEMENTS",
+        "tagline": "Personal coaching for serious athletes.",
+        "description": "The highest level of personalization with direct feedback, technique analysis and ongoing coaching.",
+        "features": {
+          "f1": "Everything in Performance",
+          "f2": "Video analysis",
+          "f3": "Technique correction",
+          "f4": "1-on-1 consultations",
+          "f5": "WhatsApp support",
+          "f6": "Direct coaching"
+        },
+        "cta": "Pursue Mastery",
+        "whatsapp_message": "Hi Alejandro! I want to take my training to the absolute maximum. I'm interested in the Mastery plan."
+      }
+    },
+    "pricing": {
+      "period": "/ USD month"
+    }
+  },
+  "JourneyTimeline": {
+    "subtitle": "The Journey",
+    "title": "What Happens Next?",
+    "steps": {
+      "step1": {
+        "title": "Assessment",
+        "description": "We identify your goals, current level and physical limitations."
+      },
+      "step2": {
+        "title": "Planning",
+        "description": "A personalized roadmap is built around your objectives."
+      },
+      "step3": {
+        "title": "Training",
+        "description": "You follow a structured plan designed for progress."
+      },
+      "step4": {
+        "title": "Adaptation",
+        "description": "The program evolves as your capacity improves."
+      },
+      "step5": {
+        "title": "Mastery",
+        "description": "You become stronger, more resilient and capable in the vertical world."
+      }
+    }
+  },
+  "TheGodaiApproach": {
+    "subtitle": "The Godai Approach",
+    "title_line1": "Built For The",
+    "title_line2": "Vertical World",
+    "description": "Godai combines sports science, climbing experience and rope access demands into a practical training system.",
+    "pillars": {
+      "p1": {
+        "title": "Assessment",
+        "description": "Every athlete starts from a different point. Before building a plan, we identify your goals, strengths, limitations and environment."
+      },
+      "p2": {
+        "title": "Adaptation",
+        "description": "The body changes through progressive stress. Training should evolve as your capacity evolves."
+      },
+      "p3": {
+        "title": "Specificity",
+        "description": "Climbers and rope access technicians face unique physical demands. Your training should reflect that reality."
+      },
+      "p4": {
+        "title": "Longevity",
+        "description": "Performance means little without durability. The goal is to stay capable, resilient and injury-resistant for years."
+      }
+    }
+  },
+  "CurrentMission": {
+    "subtitle": "Current Mission",
+    "title_line1": "I Don't Teach",
+    "title_line2": "From The Finish Line",
+    "tagline": "I Teach From The Path.",
+    "description": "I am still climbing, still learning, still training and still improving. The same process I use for myself is the process I use to help others.",
+    "objectives": {
+      "title": "Current Objectives",
+      "obj1": "Improve climbing performance",
+      "obj2": "Progress toward IRATA Level 2",
+      "obj3": "Explore bigger mountain objectives",
+      "obj4": "Continue studying human performance",
+      "obj5": "Develop stronger vertical athletes"
+    },
+    "beliefs": {
+      "title": "Core Beliefs",
+      "b1": "Movement is medicine",
+      "b2": "Strength is freedom",
+      "b3": "Adventure develops character",
+      "b4": "Nature is the best teacher",
+      "b5": "Mastery has no finish line"
+    },
+    "quote_line1": "The pursuit of mastery has no finish line.",
+    "quote_line2": "Only more path ahead."
+  },
+  "FreeAssessment": {
+    "subtitle": "Free Assessment",
+    "title_line1": "Not Sure",
+    "title_line2": "Where To Start?",
+    "description": "Let's talk about your goals, your current situation and the path that makes the most sense for you.",
+    "features": {
+      "f1": "Goal Analysis",
+      "f2": "Training Recommendations",
+      "f3": "Equipment Review",
+      "f4": "Path Recommendation"
+    },
+    "cta": "Book Free Assessment",
+    "whatsapp": {
+      "greeting": "Hi Alejandro,",
+      "interest": "I'm interested in Godai Training.",
+      "label_sport": "Sport:",
+      "label_goal": "Goal:",
+      "label_challenge": "Current Challenge:",
+      "closing": "I'd like to book a free assessment."
+    }
+  },
+  "Contact": {
+    "success": {
+      "title": "Message Sent",
+      "description": "Thank you for reaching out. I'll get back to you as soon as possible."
+    },
+    "header": {
+      "subtitle": "Contact",
+      "title": "Ready To Begin?",
+      "description": "Follow the journey, send a message, or book your assessment."
+    },
+    "social": {
+      "title": "Connect With Me",
+      "whatsapp": {
+        "tagline": "Fastest way to reach me directly."
+      },
+      "instagram": {
+        "description": "Follow my climbing, training and rope access journey."
+      },
+      "youtube": {
+        "description": "Training insights, climbing and vertical content."
+      }
+    },
+    "form": {
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "goal": "Main Goal",
+        "message": "Tell me about your current situation..."
+      },
+      "options": {
+        "climber": "Climber",
+        "rope_access": "Rope Access Technician",
+        "mountain": "Mountain Athlete",
+        "outdoor": "Outdoor Enthusiast"
+      },
+      "submit": "Send Message"
+    }
+  },
+  "FinalCTA": {
+    "title_line1": "THE VERTICAL WORLD",
+    "title_line2": "REWARDS THOSE",
+    "title_line3": "WHO PREPARE.",
+    "description": "Build strength. Develop resilience. Move with confidence. Perform at your highest level.",
+    "button": "Start Your Journey",
+    "footer_tag": "Let's build your foundation."
+  },
+  "Footer": {
+    "motto": "Body • Mind • Spirit",
+    "rights": "All rights reserved."
+  }
+}

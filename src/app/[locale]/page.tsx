@@ -9,6 +9,7 @@ import TheGodaiApproach from "@/components/TheGodaiApproach";
 import CurrentMission from "@/components/CurrentMission";
 import FreeAssessment from "@/components/FreeAssessment";
 import Contact from "@/components/Contact";
+import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -35,6 +36,8 @@ export default function Home() {
       <FreeAssessment />
 
       <Contact />
+
+      <FinalCTA />
 
       <Footer />
     </main>

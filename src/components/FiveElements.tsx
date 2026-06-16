@@ -2,99 +2,60 @@
 
 import { Mountain, Waves, Flame, Wind, CircleDot } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const elements = [
   {
     name: "CHI",
-    title: "EARTH",
-    subtitle: "Foundation",
     icon: Mountain,
-    description:
-      "Without a solid foundation, nothing else can be built. Earth represents the strength, resilience and structural integrity required to support every movement at height.",
-    bullets: [
-      "Strength",
-      "Joint Integrity",
-      "Structural Resilience",
-      "Foundational Capacity",
-    ],
+    translationKey: "elements.chi",
+    bullets: ["b1", "b2", "b3", "b4"],
   },
   {
     name: "SUI",
-    title: "WATER",
-    subtitle: "Adaptability",
     icon: Waves,
-    description:
-      "The vertical world is unpredictable. Water represents mobility, coordination and the ability to adapt efficiently to changing environments.",
-    bullets: [
-      "Mobility",
-      "Coordination",
-      "Adaptability",
-      "Movement Control",
-    ],
+    translationKey: "elements.sui",
+    bullets: ["b1", "b2", "b3", "b4"],
   },
   {
     name: "KA",
-    title: "FIRE",
-    subtitle: "Capacity",
     icon: Flame,
-    description:
-      "Fire is the engine. It represents the endurance, energy and work capacity required for long days on rope and demanding adventures.",
-    bullets: [
-      "Work Capacity",
-      "Endurance",
-      "Energy Systems",
-      "Resilience",
-    ],
+    translationKey: "elements.ka",
+    bullets: ["b1", "b2", "b3", "b4"],
   },
   {
     name: "FU",
-    title: "WIND",
-    subtitle: "Movement",
     icon: Wind,
-    description:
-      "The best climbers and technicians do not waste energy. Wind represents efficiency, balance and fluid movement.",
-    bullets: [
-      "Technique",
-      "Balance",
-      "Efficiency",
-      "Economy of Movement",
-    ],
+    translationKey: "elements.fu",
+    bullets: ["b1", "b2", "b3", "b4"],
   },
   {
     name: "KU",
-    title: "VOID",
-    subtitle: "Mastery",
     icon: CircleDot,
-    description:
-      "Mastery is not strength. It is awareness, focus and the ability to make sound decisions under pressure.",
-    bullets: [
-      "Focus",
-      "Risk Management",
-      "Self-Awareness",
-      "Decision Making",
-    ],
+    translationKey: "elements.ku",
+    bullets: ["b1", "b2", "b3", "b4"],
   },
 ];
 
 export default function FiveElements() {
+  const t = useTranslations("FiveElements");
+
   return (
     <section id="elements" className="bg-[#0A0F14] py-32">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-24 text-center">
           <p className="mb-4 uppercase tracking-[0.4em] text-lime-400">
-            The Godai Method
+            {t("section_title")}
           </p>
 
           <h2 className="text-5xl font-black md:text-6xl">
-            The Five Elements of
+            {t("main_title_line1")}
             <br />
-            the Vertical Athlete
+            {t("main_title_line2")}
           </h2>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg text-zinc-400">
-            Godai Training is built around five essential qualities
-            that every climber, rope access technician and adventurer
-            must develop to perform at their highest level.
+            {t("section_description")}
           </p>
         </div>
 
@@ -104,10 +65,11 @@ export default function FiveElements() {
           {elements.map((element, index) => {
             const Icon = element.icon;
             const left = index % 2 === 0;
+            const key = element.translationKey;
 
             return (
               <motion.div
-                key={element.title}
+                key={element.name}
                 initial={{ opacity: 0, y: 60 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
@@ -129,26 +91,26 @@ export default function FiveElements() {
                         </p>
 
                         <h3 className="text-3xl font-bold">
-                          {element.title}
+                          {t(`${key}.title`)}
                         </h3>
 
                         <p className="text-zinc-400">
-                          {element.subtitle}
+                          {t(`${key}.subtitle`)}
                         </p>
                       </div>
                     </div>
 
                     <p className="mb-6 leading-relaxed text-zinc-300">
-                      {element.description}
+                      {t(`${key}.description`)}
                     </p>
 
                     <div className="grid grid-cols-2 gap-3">
-                      {element.bullets.map((bullet) => (
+                      {element.bullets.map((bulletKey) => (
                         <div
-                          key={bullet}
+                          key={bulletKey}
                           className="rounded-xl border border-zinc-800 px-4 py-3 text-sm text-zinc-300"
                         >
-                          {bullet}
+                          {t(`${key}.${bulletKey}`)}
                         </div>
                       ))}
                     </div>
@@ -161,10 +123,10 @@ export default function FiveElements() {
 
         <div className="mt-24 text-center">
           <p className="mx-auto max-w-3xl text-xl text-zinc-300">
-            Train the body.
-            <span className="text-lime-400"> Develop resilience.</span>
-            Master movement.
-            <span className="text-lime-400"> Perform at height.</span>
+            {t.rich("footer_text", {
+              resilience: (chunks) => <span className="text-lime-400">{t("footer_resilience")}</span>,
+              height: (chunks) => <span className="text-lime-400">{t("footer_height")}</span>
+            })}
           </p>
         </div>
       </div>

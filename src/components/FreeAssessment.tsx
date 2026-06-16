@@ -1,73 +1,74 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
-export default function FreeAssessment() {
-  const phone = "573146594963"; 
+export default async function FreeAssessment() {
+  const t = await getTranslations("FreeAssessment");
+  
+  const phone = "573146594963";
 
-  const message = encodeURIComponent(`
-Hi Alejandro,
+  // Construcción del mensaje multilínea formateado según el idioma
+  const whatsappText = `
+    ${t("whatsapp.greeting")}
 
-I'm interested in Godai Training.
+    ${t("whatsapp.interest")}
 
-Sport:
-Goal:
-Current Challenge:
+    ${t("whatsapp.label_sport")}
+    ${t("whatsapp.label_goal")}
+    ${t("whatsapp.label_challenge")}
 
-I'd like to book a free assessment.
-  `);
+    ${t("whatsapp.closing")}
+      `.trim();
+
+  const encodedMessage = encodeURIComponent(whatsappText);
+
+  const featureKeys = ["f1", "f2", "f3", "f4"] as const;
 
   return (
     <section className="bg-[#0A0F14] py-32">
       <div className="mx-auto max-w-5xl px-6">
         <div className="rounded-[40px] border border-lime-400/30 bg-gradient-to-br from-lime-500/10 to-transparent p-10 md:p-16">
 
+          {/* SUBTITLE */}
           <p className="mb-4 uppercase tracking-[0.4em] text-lime-400">
-            Free Assessment
+            {t("subtitle")}
           </p>
 
-          <h2 className="text-5xl font-black md:text-6xl">
-            Not Sure
+          {/* TITLE */}
+          <h2 className="text-5xl font-black md:text-6xl text-white">
+            {t("title_line1")}
             <br />
-            Where To Start?
+            {t("title_line2")}
           </h2>
 
+          {/* DESCRIPTION */}
           <p className="mt-8 max-w-2xl text-lg text-zinc-300">
-            Let's talk about your goals, your current situation
-            and the path that makes the most sense for you.
+            {t("description")}
           </p>
 
+          {/* FEATURES GRID */}
           <div className="mt-12 grid gap-4 md:grid-cols-2">
-
-            <div className="rounded-xl border border-zinc-800 p-4">
-              ✓ Goal Analysis
-            </div>
-
-            <div className="rounded-xl border border-zinc-800 p-4">
-              ✓ Training Recommendations
-            </div>
-
-            <div className="rounded-xl border border-zinc-800 p-4">
-              ✓ Equipment Review
-            </div>
-
-            <div className="rounded-xl border border-zinc-800 p-4">
-              ✓ Path Recommendation
-            </div>
-
+            {featureKeys.map((key) => (
+              <div 
+                key={key} 
+                className="rounded-xl border border-zinc-800 p-4 text-zinc-300 bg-zinc-900/20"
+              >
+                ✓ {t(`features.${key}`)}
+              </div>
+            ))}
           </div>
 
+          {/* CTA BUTTON */}
           <div className="mt-12 flex flex-wrap gap-4">
-
             <a
-              href={`https://wa.me/${phone}?text=${message}`}
+              href={`https://wa.me/${phone}?text=${encodedMessage}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 rounded-full bg-lime-400 px-8 py-4 font-bold text-black transition hover:bg-lime-300"
+              className="inline-flex items-center gap-3 rounded-full bg-lime-400 px-8 py-4 font-bold text-black transition hover:bg-lime-300 cursor-pointer"
             >
               <MessageCircle size={20} />
-              Book Free Assessment
+              {t("cta")}
               <ArrowRight size={20} />
             </a>
-
           </div>
 
         </div>

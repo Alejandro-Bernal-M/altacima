@@ -1,28 +1,34 @@
-export default function FinalCTA() {
+import { getTranslations } from "next-intl/server";
+
+export default async function FinalCTA() {
+  const t = await getTranslations("FinalCTA");
+
   return (
     <section className="py-40">
       <div className="mx-auto max-w-5xl px-6 text-center">
 
-        <h2 className="text-5xl font-black leading-tight md:text-7xl">
-          THE VERTICAL WORLD
+        {/* HEADLINE */}
+        <h2 className="text-5xl font-black leading-tight md:text-7xl text-white uppercase">
+          {t("title_line1")}
           <br />
-          REWARDS THOSE
+          {t("title_line2")}
           <br />
-          WHO PREPARE.
+          {t("title_line3")}
         </h2>
 
+        {/* DESCRIPTION */}
         <p className="mx-auto mt-10 max-w-2xl text-xl text-zinc-400">
-          Build strength. Develop resilience.
-          Move with confidence.
-          Perform at your highest level.
+          {t("description")}
         </p>
 
-        <button className="mt-12 rounded-full bg-lime-400 px-10 py-5 text-lg font-bold text-black transition hover:bg-lime-300">
-          Start Your Journey
+        {/* ACTION BUTTON */}
+        <button className="mt-12 rounded-full bg-lime-400 px-10 py-5 text-lg font-bold text-black transition hover:bg-lime-300 cursor-pointer">
+          {t("button")}
         </button>
 
-        <p className="mt-8 text-lime-400">
-          Let's build your foundation.
+        {/* FOOTER TAG */}
+        <p className="mt-8 text-lime-400 font-medium">
+          {t("footer_tag")}
         </p>
 
       </div>

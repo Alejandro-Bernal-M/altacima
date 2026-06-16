@@ -1,8 +1,13 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+
+// 1. Inicializamos el plugin apuntando a tu archivo de configuración de peticiones
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* Tus opciones de configuración existentes */
   reactCompiler: true,
 };
 
-export default nextConfig;
+// 2. Envolvemos la configuración con el plugin de next-intl
+export default withNextIntl(nextConfig);
