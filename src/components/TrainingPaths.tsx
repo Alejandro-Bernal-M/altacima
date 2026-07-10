@@ -9,21 +9,21 @@ const WHATSAPP_NUMBER = "573146594963";
 const staticPlans = [
   {
     key: "foundation",
-    price: "$50",
+    price: "$90",
     icon: Mountain,
     highlighted: false,
     featureKeys: ["f1", "f2", "f3", "f4", "f5"],
   },
   {
     key: "performance",
-    price: "$80",
+    price: "$120",
     icon: Flame,
     highlighted: true,
     featureKeys: ["f1", "f2", "f3", "f4", "f5", "f6"],
   },
   {
     key: "mastery",
-    price: "$100",
+    price: "$150",
     icon: Crown,
     highlighted: false,
     featureKeys: ["f1", "f2", "f3", "f4", "f5", "f6"],
