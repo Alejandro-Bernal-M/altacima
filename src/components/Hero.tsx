@@ -37,9 +37,6 @@ export default function Hero() {
   )}`;
 
   return (
-    // CAMBIOS CLAVE EN LAS CLASES DEL <section>:
-    // 1. min-h-screen en lugar de h-screen
-    // 2. pt-28 sm:pt-36 pb-16 para dar espacio suficiente debajo del Navbar flotante
     <section className="relative w-full min-h-screen flex items-center justify-start pt-28 sm:pt-36 pb-16 overflow-hidden bg-[#0D131A]">
       {/* Imagen de fondo / Overlay */}
       <div className="absolute inset-0 z-0">
@@ -89,7 +86,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="#lead-form"
+            href="#contact"
             className="text-base md:text-lg font-semibold text-white/90 hover:text-white border-b-2 border-transparent hover:border-orange-500 transition-all duration-300 pb-1"
           >
             {t('secondaryCta')}
