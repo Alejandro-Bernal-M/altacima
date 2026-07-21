@@ -37,7 +37,10 @@ export default function Hero() {
   )}`;
 
   return (
-    <section className="relative w-full h-screen flex items-center justify-start overflow-hidden bg-[#0D131A]">
+    // CAMBIOS CLAVE EN LAS CLASES DEL <section>:
+    // 1. min-h-screen en lugar de h-screen
+    // 2. pt-28 sm:pt-36 pb-16 para dar espacio suficiente debajo del Navbar flotante
+    <section className="relative w-full min-h-screen flex items-center justify-start pt-28 sm:pt-36 pb-16 overflow-hidden bg-[#0D131A]">
       {/* Imagen de fondo / Overlay */}
       <div className="absolute inset-0 z-0">
         <img
