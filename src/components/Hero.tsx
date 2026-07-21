@@ -1,105 +1,98 @@
-import Image from "next/image";
-import { getTranslations } from "next-intl/server";
-import Navbar from "./Navbar";
+'use client';
 
-export default async function Hero() {
-  // Inicializamos el traductor de servidor apuntando al namespace "Hero"
-  const t = await getTranslations("Hero");
+import { motion, Variants } from 'framer-motion';
+import { useTranslations } from 'next-intl';
+import { FaWhatsapp } from 'react-icons/fa';
+
+const containerVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      staggerChildren: 0.2,
+      delayChildren: 0.3,
+    },
+  },
+};
+
+const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: 'easeOut',
+    },
+  },
+};
+
+export default function Hero() {
+  const t = useTranslations('Hero');
+
+  // Enlace directo a WhatsApp con mensaje traducido
+  const whatsappUrl = `https://wa.me/573146594963?text=${encodeURIComponent(
+    t('whatsappMessage')
+  )}`;
 
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen overflow-hidden"
-    >
-      <Navbar />
-
-      {/* Background Image */}
-      <Image
-        src="/images/hero.jpg"
-        alt={t("alt_image")}
-        fill
-        priority
-        className="object-cover object-center"
-      />
-
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/70" />
-
-      {/* Content */}
-      <div className="relative z-10 flex min-h-screen items-center">
-        <div className="mx-auto w-full max-w-7xl px-6">
-          <div className="max-w-4xl pt-32 md:pt-40">
-
-            <p className="mb-6 text-sm font-medium uppercase tracking-[0.4em] text-lime-400">
-              {t("subtitle")}
-            </p>
-
-            <h1 className="text-5xl font-black leading-[0.9] md:text-7xl xl:text-8xl">
-              {t("title_line1")}
-              <br />
-              {t("title_line2")}
-              <br />
-              {t("title_line3")}
-            </h1>
-
-            <p className="mt-10 max-w-2xl text-lg text-zinc-300 md:text-xl">
-              {t("description")}
-            </p>
-
-            <p className="mt-5 max-w-xl text-zinc-400">
-              {t("sub_description")}
-            </p>
-
-            {/* Credentials */}
-            <div className="mt-8 flex flex-wrap items-center gap-3 text-sm uppercase tracking-[0.2em] text-zinc-400">
-              <span>{t("credentials.sports_science")}</span>
-
-              <span className="hidden md:block text-lime-400">
-                •
-              </span>
-
-              <span>{t("credentials.climber")}</span>
-
-              <span className="hidden md:block text-lime-400">
-                •
-              </span>
-
-              <span>{t("credentials.rope_access")}</span>
-            </div>
-
-            {/* CTA */}
-            <div className="mt-12 flex flex-wrap gap-4 mb-40">
-              <a
-                href="#contact"
-                className="rounded-full bg-lime-500 px-8 py-4 font-semibold text-black transition-all duration-300 hover:bg-lime-400 hover:scale-105"
-              >
-                {t("ctas.start")}
-              </a>
-
-              <a
-                href="#about"
-                className="rounded-full border border-zinc-600 px-8 py-4 text-white transition-all duration-300 hover:border-lime-500 hover:bg-white/5"
-              >
-                {t("ctas.learn_more")}
-              </a>
-            </div>
-
-          </div>
-        </div>
+    <section className="relative w-full h-screen flex items-center justify-start overflow-hidden bg-[#0D131A]">
+      {/* Imagen de fondo / Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/images/hero.png"
+          alt={t('imageAlt')}
+          className="w-full h-full object-cover object-center scale-105"
+        />
+        <div className="absolute inset-0 bg-black/60 z-10" />
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 z-20 -translate-x-1/2">
-        <div className="flex flex-col items-center text-zinc-500">
-          <span className="mb-2 text-xs uppercase tracking-[0.3em]">
-            {t("scroll")}
-          </span>
+      {/* Contenido Principal Animado */}
+      <motion.div
+        className="relative z-20 container mx-auto px-6 md:px-12 text-white max-w-4xl"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.h1
+          variants={itemVariants}
+          className="font-extrabold text-4xl sm:text-5xl md:text-6xl xl:text-7xl leading-tight tracking-tight mb-6"
+        >
+          {t('titlePrefix')}{' '}
+          <span className="text-orange-500">{t('titleHighlight')}</span>{' '}
+          {t('titleSuffix')}
+        </motion.h1>
 
-          <span className="animate-bounce text-3xl">
-            ↓
-          </span>
-        </div>
-      </div>
+        <motion.p
+          variants={itemVariants}
+          className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed"
+        >
+          {t('description')}
+        </motion.p>
+
+        <motion.div
+          variants={itemVariants}
+          className="flex flex-col sm:flex-row gap-5 items-start sm:items-center"
+        >
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-bold text-base md:text-lg px-8 py-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105"
+          >
+            <FaWhatsapp className="text-2xl" />
+            {t('primaryCta')}
+          </a>
+
+          <a
+            href="#lead-form"
+            className="text-base md:text-lg font-semibold text-white/90 hover:text-white border-b-2 border-transparent hover:border-orange-500 transition-all duration-300 pb-1"
+          >
+            {t('secondaryCta')}
+          </a>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

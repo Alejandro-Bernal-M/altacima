@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 
 // Actualizamos los metadatos con el nombre de tu aplicación
 export const metadata: Metadata = {
-  title: "Godai Training",
-  description: "High-performance training and development",
+  title: "Alta Cima",
+  description: "Alta Cima: Turismo de Aventura, Eventos Corporativos y Trabajo Industrial en Altura. Experiencias únicas en Colombia.",
 };
 
 export default async function RootLayout({

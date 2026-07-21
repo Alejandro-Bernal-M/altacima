@@ -1,419 +1,218 @@
 {
   "Navbar": {
     "nav": {
-      "elements": "Elementos",
-      "about": "Acerca de",
-      "paths": "Rutas",
-      "mission": "Misión",
+      "legacy": "Trayectoria",
+      "tourism": "Turismo Aventura",
+      "events": "Eventos B2B",
+      "industrial": "Trabajo Industrial",
       "contact": "Contacto"
     },
     "lang": {
-      "en": "EN",
-      "es": "ES"
+      "es": "ES",
+      "en": "EN"
     },
-    "cta": "Asesoría Gratuita"
+    "cta": "COTIZAR",
+    "whatsappMessage": "Hola Alta Cima, me gustaría consultar por información o cotización de sus servicios."
   },
   "Hero": {
-    "alt_image": "Alejandro escalando en Huaraz",
-    "subtitle": "Godai Training",
-    "title_line1": "ENTRENA PARA",
-    "title_line2": "EL MUNDO",
-    "title_line3": "VERTICAL",
-    "description": "Ayudando a escaladores y técnicos de acceso por cuerda a desarrollar fuerza, resiliencia y longevidad para las exigencias del mundo vertical.",
-    "sub_description": "La ciencia del deporte se une a la escalada, el acceso por cuerda y la búsqueda de la maestría.",
-    "credentials": {
-      "sports_science": "Profesional en Ciencias del Deporte",
-      "climber": "Escalador",
-      "rope_access": "Acceso por Cuerda IRATA"
-    },
-    "ctas": {
-      "start": "Iniciar Entrenamiento",
-      "learn_more": "Saber Más"
-    },
-    "scroll": "Deslizar"
+    "imageAlt": "Alta Cima Aventura",
+    "titlePrefix": "ALTA CIMA. MÁS DE 20 AÑOS",
+    "titleHighlight": "DESAFIANDO ALTURAS",
+    "titleSuffix": "Y CREANDO EXPERIENCIAS INOLVIDABLES.",
+    "description": "Expertos en Turismo de Aventura, Eventos Corporativos y Trabajo Industrial en Altura. Seguridad certificada, pasión por el límite.",
+    "primaryCta": "COTIZAR EXPERIENCIA O EVENTO",
+    "secondaryCta": "SOLICITAR PROPUESTA PERSONALIZADA",
+    "whatsappMessage": "Hola Alta Cima, me interesa cotizar una experiencia o evento con ustedes."
   },
-    "FiveElements": {
-    "section_title": "El Método Godai",
-    "main_title_line1": "Los Cinco Elementos del",
-    "main_title_line2": "Atleta Vertical",
-    "section_description": "Godai Training se estructura en torno a cinco cualidades esenciales que todo escalador, técnico de acceso por cuerda y aventurero debe desarrollar para rendir al máximo nivel.",
-    "footer_text": "Entrena el cuerpo. {resilience} Domina el movimiento. {height}",
-    "footer_resilience": " Desarrolla resiliencia.",
-    "footer_height": " Domina las alturas.",
-    "elements": {
-      "chi": {
-        "title": "TIERRA",
-        "subtitle": "Fundamento",
-        "description": "Sin una base sólida, nada más se puede construir. La Tierra representa la fuerza, la resiliencia y la integridad estructural necesarias para soportar cada movimiento en altura.",
-        "b1": "Fuerza",
-        "b2": "Integridad Articular",
-        "b3": "Resiliencia Estructural",
-        "b4": "Capacidad Base"
+  "LegacyAuthority": {
+    "badge": "Trayectoria y Respaldo Técnico",
+    "heading": "20 Años Creando Experiencias al Límite",
+    "subheading": "Iniciamos una nueva etapa potenciando nuestro legado. Combinamos la pasión por la aventura al aire libre con el rigor técnico y la seguridad que nos caracteriza.",
+    "stats": {
+      "years": {
+        "number": "+20",
+        "title": "Años de Historia",
+        "title_alt": "Años de Historia",
+        "desc": "Diseñando montajes, eventos corporativos y expediciones en la región."
       },
-      "sui": {
-        "title": "AGUA",
-        "subtitle": "Adaptabilidad",
-        "description": "El mundo vertical es impredecible. El Agua representa la movilidad, la coordinación y la capacidad de adaptarse de manera eficiente a entornos cambiantes.",
-        "b1": "Movilidad",
-        "b2": "Coordinación",
-        "b3": "Adaptabilidad",
-        "b4": "Control del Movimiento"
+      "games": {
+        "number": "+80",
+        "title": "Juegos de Integración",
+        "title_alt": "Juegos de Integración",
+        "desc": "Dinámicas de trabajo en equipo y retos de aventura a la medida."
       },
-      "ka": {
-        "title": "FUEGO",
-        "subtitle": "Capacidad",
-        "description": "El Fuego es el motor. Representa la resistencia, la energía y la capacidad de trabajo requeridas para largas jornadas en cuerda y aventuras exigentes.",
-        "b1": "Capacidad de Trabajo",
-        "b2": "Resistencia",
-        "b3": "Sistemas Energéticos",
-        "b4": "Resiliencia"
+      "competitions": {
+        "number": "Top",
+        "title": "Nivel Internacional",
+        "title_alt": "Nivel Internacional",
+        "desc": "Integrantes participantes en pruebas de ITRA y Petzl Rope Trip."
       },
-      "fu": {
-        "title": "VIENTO",
-        "subtitle": "Movimiento",
-        "description": "Los mejores escaladores y técnicos no desperdician energía. El Viento representa la eficiencia, el equilibrio y la fluidez en el movimiento.",
-        "b1": "Técnica",
-        "b2": "Equilibrio",
-        "b3": "Eficiencia",
-        "b4": "Economía de Movimiento"
+      "safety": {
+        "number": "100%",
+        "title": "Seguridad Garantizada",
+        "title_alt": "Seguridad Garantizada",
+        "desc": "Estándares estrictos y equipo certificado para trabajo vertical y eventos."
+      }
+    },
+    "banner": {
+      "title": "Experiencia Técnica de Clase Mundial",
+      "description": "Nuestros instructores y técnicos han sido puestos a prueba en competencias globales de rescate y maniobras en altura, garantizando que cada montaje y salida turística sea impecable."
+    }
+  },
+  "AdventureServices": {
+    "badge": "Pilar 01 — Turismo de Aventura",
+    "heading": "Explora Zonas Inexploradas",
+    "subheading": "Organizamos expediciones guiadas con máximo nivel de seguridad, guías expertos y equipo de alta gama.",
+    "ctaCard": "Consultar próximas fechas",
+    "whatsappPrefix": "Hola Alta Cima, deseo información sobre la salida de",
+    "activities": {
+      "waterfalls": {
+        "title": "Descenso en Cascadas",
+        "desc": "Siente la adrenalina del torrentismo y descenso asistido en caída de agua con cuerdas y equipos certificados.",
+        "tag": "Adrenalina Pura"
       },
-      "ku": {
-        "title": "VACÍO",
-        "subtitle": "Maestría",
-        "description": "La maestría no es fuerza. Es consciencia, enfoque y la habilidad de tomar decisiones acertadas bajo presión.",
-        "b1": "Enfoque",
-        "b2": "Gestión del Riesgo",
-        "b3": "Autoconsciencia",
-        "b4": "Toma de Decisiones"
+      "caving": {
+        "title": "Espeleología & Cavernas",
+        "desc": "Adéntrate en las profundidades subterráneas explorando formaciones rocosas y cavernas naturales.",
+        "tag": "Exploración Subterránea"
+      },
+      "paragliding": {
+        "title": "Vuelo en Parapente",
+        "desc": "Disfruta de la libertad de volar sobre paisajes montañosos únicos con pilotos de amplia trayectoria.",
+        "tag": "Vuelo Tándem"
+      },
+      "trekking": {
+        "title": "Senderismo de Montaña",
+        "desc": "Rutas de trekking de alta exigencia y paisajes impactantes guiados por especialistas en terreno.",
+        "tag": "Alta Montaña"
       }
     }
   },
-  "MeetAlejandro": {
-    "subtitle": "Conoce a Alejandro",
-    "title_line1": "La Historia Detrás de",
-    "title_line2": "Godai Training",
-    "meta_description": "Profesional en Ciencias del Deporte y la Recreación • Escalador • Técnico IRATA • Coach",
-    "story": {
-      "p1": "Nací en Pereira, Colombia, rodeado de montañas, ríos y naturaleza. Crecer en medio de los Andes desarrolló en mí una profunda conexión con la aventura y el aire libre que sigue guiando mi vida hoy en día.",
-      "p2": "Desde pequeño me ha fascinado el movimiento. Trepaba árboles, exploraba ríos, pasaba incontables horas afuera y descubrí el parkour a los diez años. Más tarde entrené atletismo, buscando constantemente nuevas formas de entender y desafiar al cuerpo humano.",
-      "p3": "A medida que crecí, mi curiosidad se expandió más allá del rendimiento físico. El budismo me inspiró a ser una mejor persona, y años más tarde el estoicismo me dio herramientas prácticas para afrontar la adversidad con propósito. Juntos dieron forma a una filosofía que rige mi trabajo actual.",
-      "quote": "El verdadero rendimiento se construye a través del equilibrio entre cuerpo, mente y espíritu.",
-      "p4": "Esa filosofía me llevó a estudiar Ciencias del Deporte y la Recreación, donde empecé a construir una comprensión científica del rendimiento humano, el entrenamiento y el desarrollo atlético a largo plazo.",
-      "p5": "Durante esos años descubrí los sistemas de cuerdas, el rappel y los deportes de aventura. Lo que empezó como curiosidad se convirtió poco a poco en una vocación. A través de formación técnica y experiencia en campo, construí las bases que finalmente me llevaron al acceso por cuerda e IRATA.",
-      "p6": "Por esa misma época, un amigo cercano me introdujo a la escalada en roca. Desde entonces, la escalada se ha convertido en una de las maestras más grandes de mi vida. Sigue desafiándome a nivel físico, mental y emocional, recordándome siempre cuánto me queda por aprender.",
-      "p7": "Godai Training nació de ese viaje.",
-      "p8": "Hoy mi misión es ayudar a escaladores, técnicos de acceso por cuerda y aventureros a volverse más fuertes, moverse mejor, rendir por más tiempo y desarrollar la resiliencia necesaria para prosperar en el mundo vertical."
+  "B2BEvents": {
+    "badge": "Pilar 02 — Eventos Corporativos & B2B",
+    "heading": "Montajes de Aventura e Integración Empresarial",
+    "subheading": "Llevamos la aventura a las instalaciones de tu empresa, club o finca. Diseñamos dinámicas de alto impacto adaptadas al espacio y objetivo de tu equipo.",
+    "ctaButton": "Cotizar Evento Empresarial",
+    "whatsappMessage": "Hola Alta Cima, me gustaría cotizar un evento corporativo o montaje de aventura para mi empresa.",
+    "statCard": {
+      "title": "+80 Juegos de Trabajo en Equipo",
+      "subtitle": "Catálogo adaptativo de retos",
+      "desc": "Contamos con una amplia batería de pruebas físicas y estratégicas diseñadas para potenciar el liderazgo, la confianza y la cohesión de grupo."
     },
-    "milestones": {
-      "m1": "🏔 Nacido en Pereira, Colombia",
-      "m2": "🎓 Ciencias del Deporte y la Recreación",
-      "m3": "🧗 Escalador en Roca",
-      "m4": "🪢 IRATA Nivel 1",
-      "m5": "📚 Estudiante de por Vida"
-    },
-    "philosophy": {
-      "subtitle": "Filosofía",
-      "title": "Los Tres Pilares",
-      "body": {
-        "title": "CUERPO",
-        "v1": "Fuerza",
-        "v2": "Resiliencia",
-        "v3": "Movimiento"
-      },
-      "mind": {
-        "title": "MENTE",
-        "v1": "Enfoque",
-        "v2": "Consciencia",
-        "v3": "Disciplina"
-      },
-      "spirit": {
-        "title": "ESPÍRITU",
-        "v1": "Propósito",
-        "v2": "Aventura",
-        "v3": "Crecimiento"
-      },
-      "footer_quote": "El verdadero rendimiento se construye a través del equilibrio entre cuerpo, mente y espíritu."
-    },
-    "manifesto": {
-      "subtitle": "Filosofía Godai",
-      "p1": "No creo que entrenar se trate de perseguir números.",
-      "p2": "Creo que se trata de volverse capaz.",
-      "p3": "Capaz de escalar más alto.",
-      "p4": "Capaz de resistir más tiempo.",
-      "p5": "Capaz de adaptarse cuando las condiciones cambian.",
-      "p6": "Capaz de afrontar la incertidumbre con confianza.",
-      "p7": "Porque la fuerza por sí sola no es suficiente.",
-      "p8": "El mundo vertical exige resiliencia, movimiento, consciencia y maestría.",
-      "footer_bold": "Por eso existe Godai.",
-      "headline_1": "LA BÚSQUEDA",
-      "headline_2": "DE LA MAESTRÍA",
-      "headline_3": "NO TIENE",
-      "headline_4": "LÍNEA DE META.",
-      "path_ahead": "Solo más camino por delante."
-    }
-  },
-  "WhoIHelp": {
-    "subtitle": "A Quién Ayudo",
-    "title_line1": "Creado para el",
-    "title_line2": "Mundo Vertical",
-    "description": "Godai Training está diseñado para personas que se desafían a sí mismas en entornos donde la fuerza, la resiliencia y la adaptabilidad realmente importan.",
-    "profiles": {
-      "climbers": {
-        "title": "Escaladores",
-        "description": "Desarrolla fuerza, movilidad y resistencia para un mejor rendimiento en roca, resina y entornos alpinos."
-      },
-      "rope_access": {
-        "title": "Técnicos de Acceso por Cuerda",
-        "description": "Construye la capacidad física necesaria para largas jornadas en la cuerda mientras reduces la fatiga y el riesgo de lesiones."
-      },
-      "mountain": {
-        "title": "Atletas de Montaña",
-        "description": "Prepara tu cuerpo para la altitud, el terreno técnico y los objetivos más exigentes al aire libre."
-      },
-      "adventure": {
-        "title": "Aventureros",
-        "description": "Vuélvete más fuerte, resiliente y capaz para afrontar cualquier desafío más allá del sendero."
-      }
-    },
-    "footer": {
-      "headline_line1": "NO NECESITAS SER",
-      "headline_line2": "UN ATLETA DE ÉLITE.",
-      "subline": "Solo necesitas la voluntad de mejorar."
-    }
-  },
-  "WhyTrainDifferently": {
-    "subtitle": "¿Por qué entrenar diferente?",
-    "title_line1": "El Atleta Vertical",
-    "title_line2": "Exige Más",
-    "cards": {
-      "c1": {
-        "title": "La mayoría entrena por estética",
-        "description": "Se enfocan en la apariencia física mientras ignoran las demandas reales de su entorno."
-      },
-      "c2": {
-        "title": "Los atletas entrenan por rendimiento",
-        "description": "Desarrollan cualidades específicas para desempeñarse mejor en su deporte."
-      },
-      "c3": {
-        "title": "Los atletas verticales necesitan ambos",
-        "description": "La fuerza, la resistencia, la movilidad y la resiliencia deben trabajar en conjunto cuando las consecuencias son reales."
-      }
-    },
-    "content": {
-      "p1": "La escalada, el acceso por cuerda y los entornos de montaña imponen exigencias únicas al cuerpo.",
-      "bold_statement": "La fuerza por sí sola no es suficiente.",
-      "p2": "Necesitas eficiencia de movimiento, capacidad de trabajo, movilidad, resiliencia y la habilidad de rendir bajo fatiga.",
-      "p3": "Godai Training combina la ciencia del deporte, la experiencia en escalada y el conocimiento en acceso por cuerda para prepararte para las realidades del mundo vertical."
-    },
-    "cta": {
-      "headline_line1": "¿LISTO PARA CONSTRUIR",
-      "headline_line2": "TUS CIMIENTOS?",
-      "button": "Explorar las Rutas"
-    }
-  },
-  "TrainingPaths": {
-    "subtitle": "Elige Tu Camino",
-    "title_line1": "Cada Viaje",
-    "title_line2": "Comienza en Algún Lugar",
-    "description": "Ya sea que estés construyendo tus cimientos, buscando el máximo rendimiento o persiguiendo la maestría, hay una ruta diseñada para tu etapa de desarrollo.",
-    "plans": {
-      "foundation": {
-        "name": "CIMIENTOS",
-        "element": "CHI • TIERRA",
-        "tagline": "Construye la base que soporta todo lo demás.",
-        "description": "El punto de partida ideal para atletas que quieren dejar de improvisar y comenzar a progresar con propósito.",
-        "features": {
-          "f1": "3 sesiones de entrenamiento por semana",
-          "f2": "Programación personalizada",
-          "f3": "Adaptación según tu equipamiento",
-          "f4": "Progresión orientada a objetivos",
-          "f5": "Soporte por correo electrónico"
-        },
-        "cta": "Construye tus Cimientos",
-        "whatsapp_message": "¡Hola Alejandro! Quiero empezar mi proceso de entrenamiento con el plan Cimientos. ¿Me das más información?"
-      },
-      "performance": {
-        "name": "RENDIMIENTO",
-        "element": "TIERRA • AGUA • FUEGO",
-        "badge": "MÁS POPULAR",
-        "tagline": "Fuerza, movilidad y durabilidad para la vida en las alturas.",
-        "description": "El equilibrio perfecto entre fuerza, movilidad y resiliencia para escaladores y técnicos de acceso por cuerda.",
-        "features": {
-          "f1": "3-4 sesiones de fuerza",
-          "f2": "2 sesiones de movilidad y prehab",
-          "f3": "Protocolos de salud articular",
-          "f4": "Estrategias de recuperación",
-          "f5": "Progresión de rendimiento",
-          "f6": "Soporte prioritario"
-        },
-        "cta": "Alcanza tu Rendimiento Óptimo",
-        "whatsapp_message": "¡Hola Alejandro! Estoy interesado en el plan Rendimiento para potenciar mis capacidades físicas. ¿Cómo comenzamos?"
-      },
-      "mastery": {
-        "name": "MAESTRÍA",
-        "element": "LOS CINCO ELEMENTOS",
-        "tagline": "Coaching personal para atletas enfocados.",
-        "description": "El nivel más alto de personalización con retroalimentación directa, análisis técnico y acompañamiento continuo.",
-        "features": {
-          "f1": "Todo lo incluido en Rendimiento",
-          "f2": "Análisis de video",
-          "f3": "Corrección de técnica",
-          "f4": "Consultas 1 a 1",
-          "f5": "Soporte por WhatsApp",
-          "f6": "Coaching directo"
-        },
-        "cta": "Persigue la Maestría",
-        "whatsapp_message": "¡Hola Alejandro! Quiero llevar mi entrenamiento al máximo nivel. Me interesa el plan de Maestría."
-      }
-    },
-    "pricing": {
-      "period": "/ AUD mes"
-    }
-  },
-  "JourneyTimeline": {
-    "subtitle": "El Camino",
-    "title": "¿Qué Pasa Después?",
-    "steps": {
-      "step1": {
-        "title": "Diagnóstico",
-        "description": "Identificamos tus objetivos, nivel actual y limitaciones físicas."
-      },
-      "step2": {
-        "title": "Planificación",
-        "description": "Se construye una hoja de ruta totalmente personalizada en base a tus metas."
-      },
-      "step3": {
-        "title": "Entrenamiento",
-        "description": "Sigues un plan estructurado y diseñado específicamente para progresar."
-      },
-      "step4": {
-        "title": "Adaptación",
-        "description": "El programa evoluciona y se ajusta a medida que tu capacidad física mejora."
-      },
-      "step5": {
-        "title": "Maestría",
-        "description": "Te vuelves más fuerte, resiliente y capaz para afrontar el mundo vertical."
-      }
-    }
-  },
-  "TheGodaiApproach": {
-    "subtitle": "El Enfoque Godai",
-    "title_line1": "Creado para el",
-    "title_line2": "Mundo Vertical",
-    "description": "Godai combina la ciencia del deporte, la experiencia en escalada y las exigencias del acceso por cuerda en un sistema de entrenamiento práctico.",
-    "pillars": {
-      "p1": {
-        "title": "Diagnóstico",
-        "description": "Cada atleta comienza desde un punto diferente. Antes de trazar un plan, identificamos tus objetivos, fortalezas, limitaciones y entorno."
-      },
-      "p2": {
-        "title": "Adaptación",
-        "description": "El cuerpo cambia mediante el estrés progresivo. El entrenamiento debe evolucionar al mismo ritmo que tus capacidades físicas."
-      },
-      "p3": {
-        "title": "Especificidad",
-        "description": "Los escaladores y técnicos de acceso por cuerda se enfrentan a demandas físicas únicas. Tu entrenamiento debe reflejar esa realidad."
-      },
-      "p4": {
-        "title": "Longevidad",
-        "description": "El rendimiento significa poco sin durabilidad. El objetivo es mantenerte capaz, resiliente y libre de lesiones a lo largo de los años."
-      }
-    }
-  },
-  "CurrentMission": {
-    "subtitle": "Misión Actual",
-    "title_line1": "No enseño desde",
-    "title_line2": "la línea de meta",
-    "tagline": "Enseño desde el camino.",
-    "description": "Sigo escalando, sigo aprendiendo, sigo entrenando y sigo mejorando. El mismo proceso que aplico en mí es el proceso que utilizo para ayudar a los demás.",
-    "objectives": {
-      "title": "Objetivos Actuales",
-      "obj1": "Mejorar el rendimiento en escalada",
-      "obj2": "Progresar hacia IRATA Nivel 2",
-      "obj3": "Explorar objetivos de montaña más grandes",
-      "obj4": "Continuar estudiando el rendimiento humano",
-      "obj5": "Desarrollar atletas verticales más fuertes"
-    },
-    "beliefs": {
-      "title": "Filosofías Centrales",
-      "b1": "El movimiento es medicina",
-      "b2": "La fuerza es libertad",
-      "b3": "La aventura forja el carácter",
-      "b4": "La naturaleza es la mejor maestra",
-      "b5": "La maestría no tiene línea de meta"
-    },
-    "quote_line1": "La búsqueda de la maestría no tiene línea de meta.",
-    "quote_line2": "Solo hay más camino por delante."
-  },
-  "FreeAssessment": {
-    "subtitle": "Diagnóstico Gratuito",
-    "title_line1": "¿No estás seguro",
-    "title_line2": "de dónde empezar?",
-    "description": "Hablemos de tus objetivos, tu situación actual y la ruta que tenga más sentido para tu desarrollo.",
     "features": {
-      "f1": "Análisis de Objetivos",
-      "f2": "Recomendaciones de Entreno",
-      "f3": "Revisión de Equipamiento",
-      "f4": "Recomendación de Ruta"
+      "item1": "Montaje en cualquier ubicación",
+      "item2": "Pólizas de seguro y normatividad",
+      "item3": "Facilitadores de grupo capacitados",
+      "item4": "Logística y equipo certificado"
     },
-    "cta": "Reservar Diagnóstico Gratis",
-    "whatsapp": {
-      "greeting": "Hola Alejandro,",
-      "interest": "Estoy interesado en Godai Training.",
-      "label_sport": "Deporte / Actividad:",
-      "label_goal": "Objetivo:",
-      "label_challenge": "Desafío Actual:",
-      "closing": "Me gustaría reservar un diagnóstico gratuito."
+    "cards": {
+      "rigging": {
+        "title": "Montajes Temporales de Aventura",
+        "desc": "Muros de escalada móviles, tirolesas (canopy), puentes tibetanos y pasos de cuerda instalados bajo estrictos parámetros de ingeniería."
+      },
+      "teambuilding": {
+        "title": "Jornadas de Teambuilding",
+        "desc": "Circuitos de retos de integración diseñados para resolver problemas bajo presión, comunicación efectiva y motivación de personal."
+      },
+      "custom": {
+        "title": "Soluciones a la Medida",
+        "desc": "Adaptamos los montajes y dinámicas según el número de participantes, espacio disponible y perfil de la organización.",
+        "highlight": "Diseñado según el terreno y lugar de montaje."
+      }
     }
   },
-  "Contact": {
-    "success": {
-      "title": "Mensaje Enviado",
-      "description": "Gracias por ponerte en contacto. Te responderé lo antes posible."
-    },
-    "header": {
-      "subtitle": "Contacto",
-      "title": "¿Listo para Empezar?",
-      "description": "Sigue el viaje, envía un mensaje o reserva tu diagnóstico."
-    },
-    "social": {
-      "title": "Conecta Conmigo",
-      "whatsapp": {
-        "tagline": "La forma más rápida de contactarme directamente."
+  "IndustrialRope": {
+    "badge": "Pilar 03 — Trabajos Industriales",
+    "heading": "Acceso por Cuerdas & Soluciones en Altura",
+    "subheading": "Llevamos nuestro rigor técnico de competición (Petzl / ITRA) al sector industrial y de construcción con absoluta precisión.",
+    "whatsappIndustrialMessage": "Hola Alta Cima, requiero información sobre servicios de trabajo industrial en altura.",
+    "whatsappGearMessage": "Hola Alta Cima, deseo conocer el catálogo de ropa especializada para trabajo en altura.",
+    "services": {
+      "access": {
+        "title": "Trabajos de Difícil Acceso",
+        "desc": "Intervención técnica en estructuras complejas, fachadas y espacios confinados con técnicas avanzadas de posicionamiento."
       },
-      "instagram": {
-        "description": "Sigue mi día a día en escalada, entrenamiento y acceso por cuerda."
+      "maintenance": {
+        "title": "Mantenimiento e Inspección",
+        "desc": "Evaluación de estructuras, limpieza técnica, pintura industrial y reparaciones en altura sin necesidad de andamios masivos."
       },
-      "youtube": {
-        "description": "Análisis de entrenamiento, escalada y contenido vertical."
+      "consulting": {
+        "title": "Rigging & Seguridad",
+        "desc": "Instalación de líneas de vida temporales y permanentes, asesoría de seguridad vertical y montaje de sistemas de rescate."
       }
     },
-    "form": {
-      "placeholders": {
-        "name": "Tu Nombre",
-        "email": "Tu Correo Electrónico",
-        "goal": "Objetivo Principal",
-        "message": "Cuéntame sobre tu situación actual..."
-      },
-      "options": {
-        "climber": "Escalador / Escaladora",
-        "rope_access": "Técnico de Acceso por Cuerda",
-        "mountain": "Atleta de Montaña",
-        "outdoor": "Entusiasta de la Vida al Aire Libre"
-      },
-      "submit": "Enviar Mensaje"
-    }
+    "gearBadge": "Equipamiento Alta Cima",
+    "gearTitle": "Ropa Especializada para Trabajo Vertical & Aventura",
+    "gearDesc": "Diseñamos y confeccionamos pantalones y buzos de alto rendimiento probados en condiciones extremas. Flexibilidad, resistencia al roce y ergonomía pensada para arneses.",
+    "gearItems": {
+      "pants": "Pantalones de Alta Resistencia",
+      "hoodies": "Buzos Ergonómicos Térmicos",
+      "durability": "Refuerzos Anti-abrasión"
+    },
+    "gearCta": "Consultar Catálogo de Ropa"
   },
-  "FinalCTA": {
-    "title_line1": "EL MUNDO VERTICAL",
-    "title_line2": "RECOMPENSA A QUIENES",
-    "title_line3": "SE PREPARAN.",
-    "description": "Construye fuerza. Desarrolla resiliencia. Muévete con confianza. Rinde a tu máximo nivel.",
-    "button": "Comienza Tu Camino",
-    "footer_tag": "Construyamos tus cimientos."
+  "LeadForm": {
+    "badge": "Contacto Directo",
+    "heading": "Solicita tu Cotización o Información",
+    "subheading": "Diligencia tus datos y se abrirá tu conversación de WhatsApp con un mensaje preconfigurado para atenderte de inmediato.",
+    "labels": {
+      "name": "Nombre Completo o Empresa",
+      "phone": "Teléfono / WhatsApp",
+      "service": "¿En qué servicio estás interesado?",
+      "notes": "Detalles adicionales o requerimientos"
+    },
+    "placeholders": {
+      "name": "Ej. Juan Pérez / Empresa SAS",
+      "phone": "+57 300 000 0000",
+      "notes": "Cuéntanos fechas estimadas, número de personas o tipo de trabajo..."
+    },
+    "options": {
+      "tourism": "Turismo de Aventura (Cascadas, Caving, Parapente, Trekking)",
+      "events": "Eventos Corporativos B2B / Montajes de Aventura / Teambuilding",
+      "industrial": "Trabajos Industriales / Acceso por Cuerdas",
+      "gear": "Catálogo de Ropa Especializada / Equipamiento"
+    },
+    "submitButton": "Enviar Solicitud por WhatsApp"
+  },
+  "ImageGalleryCarousel": {
+    "badge": "Galería en Acción",
+    "heading": "Experiencias Reales en Terreno",
+    "subheading": "Un recorrido visual por nuestros montajes de ingeniería, expediciones de aventura y jornadas corporativas.",
+    "slides": {
+      "waterfall": {
+        "title": "Descenso de Cascada Técnico",
+        "category": "Turismo Aventura"
+      },
+      "climbing": {
+        "title": "Montaje de Muro de Escalada Móvil",
+        "category": "Eventos B2B"
+      },
+      "industrial": {
+        "title": "Inspección y Mantenimiento en Altura",
+        "category": "Trabajo Industrial"
+      },
+      "teambuilding": {
+        "title": "Jornadas de Integración y Liderazgo",
+        "category": "Teambuilding"
+      }
+    }
   },
   "Footer": {
-    "motto": "Cuerpo • Mente • Espíritu",
-    "rights": "Todos los derechos reservados."
+    "brandDescription": "Más de 20 años desafiando alturas. Especialistas en Turismo de Aventura, Eventos Corporativos, Trabajos Industriales en Altura y Equipamiento Técnico.",
+    "whatsappMessage": "Hola Alta Cima, me gustaría obtener más información sobre sus servicios.",
+    "sections": {
+      "navigation": "Navegación",
+      "contact": "Contacto Directo"
+    },
+    "links": {
+      "legacy": "Trayectoria",
+      "tourism": "Turismo Aventura",
+      "events": "Eventos B2B",
+      "industrial": "Trabajo Industrial",
+      "contact": "Contacto"
+    },
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
   }
 }

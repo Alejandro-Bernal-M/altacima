@@ -5,17 +5,16 @@ export const locales = ['en', 'es'] as const;
 export type Locale = (typeof locales)[number];
 
 export default getRequestConfig(async ({ requestLocale }) => {
-  const locale = await requestLocale;
+  // Resolvemos el locale de forma segura
+  let locale = await requestLocale;
 
-  // 1. Validar que exista y que sea uno de los soportados
+  // Validación rápida
   if (!locale || !locales.includes(locale as Locale)) {
-    notFound();
+    locale = 'es'; // Fallback seguro en lugar de notFound() para evitar bucles durante el build
   }
 
   return {
-    // 2. Al usar 'as string' o asegurar la validación previa, 
-    // TypeScript ya sabe que no puede ser undefined.
-    locale: locale as string, 
+    locale,
     messages: (await import(`../../messages/${locale}.json`)).default
   };
 });
