@@ -32,93 +32,84 @@
       "years": {
         "number": "+20",
         "title": "Años de Historia",
-        "title_alt": "Años de Historia",
         "desc": "Diseñando montajes, eventos corporativos y expediciones en la región."
       },
       "games": {
         "number": "+80",
         "title": "Juegos de Integración",
-        "title_alt": "Juegos de Integración",
         "desc": "Dinámicas de trabajo en equipo y retos de aventura a la medida."
       },
       "competitions": {
         "number": "Top",
-        "title": "Nivel Internacional",
-        "title_alt": "Nivel Internacional",
-        "desc": "Integrantes participantes en pruebas de ITRA y Petzl Rope Trip."
+        "title": "Competencias de Altura",
+        "desc": "Participación activa en competencias nacionales e internacionales de acceso por cuerdas, arborismo y rescate."
       },
       "safety": {
         "number": "100%",
         "title": "Seguridad Garantizada",
-        "title_alt": "Seguridad Garantizada",
-        "desc": "Estándares estrictos y equipo certificado para trabajo vertical y eventos."
+        "desc": "Estándares estrictos y equipo certificado para trabajo vertical, arborismo y eventos al límite."
       }
     },
     "banner": {
       "title": "Experiencia Técnica de Clase Mundial",
-      "description": "Nuestros instructores y técnicos han sido puestos a prueba en competencias globales de rescate y maniobras en altura, garantizando que cada montaje y salida turística sea impecable."
+      "description": "Nuestros instructores y técnicos han sido puestos a prueba en competencias nacionales e internacionales de acceso por cuerdas, arborismo y rescate (como Petzl Rope Trip), garantizando que cada montaje, trabajo industrial y salida turística sea impecable."
     }
   },
   "AdventureServices": {
-    "badge": "Pilar 01 — Turismo de Aventura",
-    "heading": "Explora Zonas Inexploradas",
-    "subheading": "Organizamos expediciones guiadas con máximo nivel de seguridad, guías expertos y equipo de alta gama.",
-    "ctaCard": "Consultar próximas fechas",
-    "whatsappPrefix": "Hola Alta Cima, deseo información sobre la salida de",
+    "badge": "Pilar 01 — Turismo & Construcción de Aventura",
+    "heading": "Experiencias e Infraestructura al Límite",
+    "subheading": "Desde jornadas de pura adrenalina hasta rutas de aventura de varios días e ingeniería de infraestructura certificada con máxima seguridad.",
+    "ctaCard": "Consultar opciones y cotizar",
+    "whatsappPrefix": "Hola Alta Cima, deseo solicitar información sobre",
     "activities": {
-      "waterfalls": {
-        "title": "Descenso en Cascadas",
-        "desc": "Siente la adrenalina del torrentismo y descenso asistido en caída de agua con cuerdas y equipos certificados.",
-        "tag": "Adrenalina Pura"
+      "daytrip": {
+        "title": "Pasadías de Aventura",
+        "desc": "Elige tu reto de un día: desde escalada en roca y senderismo técnico hasta el ritmo de un descenso en cascada (canyonismo). Salidas guiadas con equipos certificados y atención personalizada.",
+        "tag": "1 Día / Elige tu Experiencia"
       },
-      "caving": {
-        "title": "Espeleología & Cavernas",
-        "desc": "Adéntrate en las profundidades subterráneas explorando formaciones rocosas y cavernas naturales.",
-        "tag": "Exploración Subterránea"
+      "expeditions": {
+        "title": "Excursiones de Aventura",
+        "desc": "Travesías y rutas de varios días diseñadas a la medida. Explora cañones, torrentes y parajes no convencionales con logística de campo, campamentos y guía especializada.",
+        "tag": "Multi-Día / A Medida"
       },
-      "paragliding": {
-        "title": "Vuelo en Parapente",
-        "desc": "Disfruta de la libertad de volar sobre paisajes montañosos únicos con pilotos de amplia trayectoria.",
-        "tag": "Vuelo Tándem"
-      },
-      "trekking": {
-        "title": "Senderismo de Montaña",
-        "desc": "Rutas de trekking de alta exigencia y paisajes impactantes guiados por especialistas en terreno.",
-        "tag": "Alta Montaña"
+      "construction": {
+        "title": "Construcción de Parques de Aventura",
+        "desc": "Ingeniería, diseño y montaje seguro de muros de escalada, líneas de canopy, tirolesas, puentes colgantes y circuitos de cuerdas altas bajo normativa internacional.",
+        "tag": "Ingeniería & Montaje"
       }
     }
   },
   "B2BEvents": {
     "badge": "Pilar 02 — Eventos Corporativos & B2B",
-    "heading": "Montajes de Aventura e Integración Empresarial",
-    "subheading": "Llevamos la aventura a las instalaciones de tu empresa, club o finca. Diseñamos dinámicas de alto impacto adaptadas al espacio y objetivo de tu equipo.",
-    "ctaButton": "Cotizar Evento Empresarial",
-    "whatsappMessage": "Hola Alta Cima, me gustaría cotizar un evento corporativo o montaje de aventura para mi empresa.",
+    "heading": "Desafíos de Alto Impacto para Equipos",
+    "subheading": "Diseñamos y ejecutamos montajes temporales, dinámicas de trabajo en equipo y retos de aventura corporativa con máxima seguridad y rigor técnico.",
+    "whatsappMessage": "Hola Alta Cima, me interesa cotizar una actividad corporativa / evento B2B.",
+    "ctaButton": "Cotizar Evento Corporativo",
     "statCard": {
-      "title": "+80 Juegos de Trabajo en Equipo",
-      "subtitle": "Catálogo adaptativo de retos",
-      "desc": "Contamos con una amplia batería de pruebas físicas y estratégicas diseñadas para potenciar el liderazgo, la confianza y la cohesión de grupo."
-    },
-    "features": {
-      "item1": "Montaje en cualquier ubicación",
-      "item2": "Pólizas de seguro y normatividad",
-      "item3": "Facilitadores de grupo capacitados",
-      "item4": "Logística y equipo certificado"
+      "title": "Soluciones a la Medida",
+      "subtitle": "Para Empresas y Marcas",
+      "desc": "Adaptamos montajes verticales, puentes de cuerdas y retos grupales en cualquier locación o centro de convenciones."
     },
     "cards": {
       "rigging": {
-        "title": "Montajes Temporales de Aventura",
-        "desc": "Muros de escalada móviles, tirolesas (canopy), puentes tibetanos y pasos de cuerda instalados bajo estrictos parámetros de ingeniería."
+        "title": "Montajes Temporales & Rigging",
+        "desc": "Estructuras móviles de cuerdas, tirolesas temporales y torres de escalada diseñadas para eventos de marca y activaciones corporativas."
       },
       "teambuilding": {
-        "title": "Jornadas de Teambuilding",
-        "desc": "Circuitos de retos de integración diseñados para resolver problemas bajo presión, comunicación efectiva y motivación de personal."
+        "title": "Juegos de Integración (+80)",
+        "desc": "Más de 80 dinámicas de liderazgo, comunicación y confianza bajo presión, guiadas por facilitadores experimentados."
       },
       "custom": {
-        "title": "Soluciones a la Medida",
-        "desc": "Adaptamos los montajes y dinámicas según el número de participantes, espacio disponible y perfil de la organización.",
-        "highlight": "Diseñado según el terreno y lugar de montaje."
+        "title": "Logística & Seguridad 100%",
+        "desc": "Gestión integral de riesgos, pólizas de asistencia y personal certificado para garantizar una experiencia sin contratiempos.",
+        "highlight": "Operación Certificada en Todo el País"
       }
+    },
+    "features": {
+      "item1": "Estructuras y anclajes certificados",
+      "item2": "Personal técnico con capacitación en rescate",
+      "item3": "Evaluación previa de terreno y riesgos",
+      "item4": "Logística flexible en interiores o exteriores"
     }
   },
   "IndustrialRope": {
@@ -129,16 +120,16 @@
     "whatsappGearMessage": "Hola Alta Cima, deseo conocer el catálogo de ropa especializada para trabajo en altura.",
     "services": {
       "access": {
-        "title": "Trabajos de Difícil Acceso",
-        "desc": "Intervención técnica en estructuras complejas, fachadas y espacios confinados con técnicas avanzadas de posicionamiento."
+        "title": "Trabajos de Difícil Acceso e Instalaciones",
+        "desc": "Intervención técnica en estructuras complejas, fachadas e instalaciones en altura con técnicas avanzadas de posicionamiento por cuerdas."
       },
       "maintenance": {
-        "title": "Mantenimiento e Inspección",
-        "desc": "Evaluación de estructuras, limpieza técnica, pintura industrial y reparaciones en altura sin necesidad de andamios masivos."
+        "title": "Equipos: Venta, Inspección & Mantenimiento",
+        "desc": "Venta de EPP especializado, inspección periódica y mantenimiento certificado de equipos para actividades con cuerdas y trabajo vertical."
       },
       "consulting": {
-        "title": "Rigging & Seguridad",
-        "desc": "Instalación de líneas de vida temporales y permanentes, asesoría de seguridad vertical y montaje de sistemas de rescate."
+        "title": "Muros de Escalada Fijos & Rigging",
+        "desc": "Diseño y construcción de muros de escalada fijos, instalación de líneas de vida temporales o permanentes y montaje de sistemas de rescate."
       }
     },
     "gearBadge": "Equipamiento Alta Cima",
@@ -153,24 +144,24 @@
   },
   "LeadForm": {
     "badge": "Contacto Directo",
-    "heading": "Solicita tu Cotización o Información",
-    "subheading": "Diligencia tus datos y se abrirá tu conversación de WhatsApp con un mensaje preconfigurado para atenderte de inmediato.",
+    "heading": "Hablemos de tu Próximo Proyecto",
+    "subheading": "Completa el formulario y te dirigiremos al canal directo de WhatsApp con la información lista para cotizar.",
     "labels": {
-      "name": "Nombre Completo o Empresa",
+      "name": "Nombre Completo",
       "phone": "Teléfono / WhatsApp",
-      "service": "¿En qué servicio estás interesado?",
-      "notes": "Detalles adicionales o requerimientos"
+      "service": "Servicio o Pilar de Interés",
+      "notes": "Detalles adicionales o requerimientos particulares"
     },
     "placeholders": {
-      "name": "Ej. Juan Pérez / Empresa SAS",
-      "phone": "+57 300 000 0000",
-      "notes": "Cuéntanos fechas estimadas, número de personas o tipo de trabajo..."
+      "name": "Ej. Juan Pérez",
+      "phone": "Ej. +57 300 123 4567",
+      "notes": "Cuéntanos sobre fechas, número de personas, ubicación o necesidades específicas..."
     },
     "options": {
-      "tourism": "Turismo de Aventura (Cascadas, Caving, Parapente, Trekking)",
-      "events": "Eventos Corporativos B2B / Montajes de Aventura / Teambuilding",
-      "industrial": "Trabajos Industriales / Acceso por Cuerdas",
-      "gear": "Catálogo de Ropa Especializada / Equipamiento"
+      "tourism": "Turismo & Construcción de Aventura (Pasadías / Excursiones)",
+      "events": "Eventos Corporativos & B2B (Teambuilding / Rigging)",
+      "industrial": "Trabajos Industriales, Mantenimiento & Equipos",
+      "gear": "Ropa & Equipamiento Especializado"
     },
     "submitButton": "Enviar Solicitud por WhatsApp"
   },

@@ -20,7 +20,7 @@ export default function Home() {
       <LegacyAuthority />
 
       {/* Galería de fotos: Carrusel de imágenes de alta calidad */}
-      <ImageGalleryCarousel />
+      {/* <ImageGalleryCarousel /> */}
 
       {/* PILAR 1: Turismo de Aventura (Cascadas, Espeleología, Parapente) */}
       <AdventureServices />

@@ -2,7 +2,7 @@
 
 import { motion, Variants } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Compass, Waves, Mountain, Wind, ArrowRight } from 'lucide-react';
+import { Mountain, Compass, Hammer, ArrowRight } from 'lucide-react';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -28,55 +28,48 @@ export default function AdventureServices() {
 
   const whatsappUrl = (activityName: string) =>
     `https://wa.me/573146594963?text=${encodeURIComponent(
-      `${t('whatsappPrefix')} ${activityName}`
+      `${t('whatsappPrefix')}: ${activityName}`
     )}`;
 
   const activities = [
     {
-      id: 'waterfalls',
-      icon: <Waves className="w-6 h-6 text-orange-500" />,
-      title: t('activities.waterfalls.title'),
-      desc: t('activities.waterfalls.desc'),
-      tag: t('activities.waterfalls.tag'),
-      image: '/images/waterfall.webp', // Asegúrate de colocar las imágenes correspondientes
+      id: 'daytrip',
+      icon: <Mountain className="w-6 h-6 text-red-500" />,
+      title: t('activities.daytrip.title'),
+      desc: t('activities.daytrip.desc'),
+      tag: t('activities.daytrip.tag'),
     },
     {
-      id: 'caving',
-      icon: <Compass className="w-6 h-6 text-orange-500" />,
-      title: t('activities.caving.title'),
-      desc: t('activities.caving.desc'),
-      tag: t('activities.caving.tag'),
-      image: '/images/caving.webp',
+      id: 'expeditions',
+      icon: <Compass className="w-6 h-6 text-red-500" />,
+      title: t('activities.expeditions.title'),
+      desc: t('activities.expeditions.desc'),
+      tag: t('activities.expeditions.tag'),
     },
     {
-      id: 'paragliding',
-      icon: <Wind className="w-6 h-6 text-orange-500" />,
-      title: t('activities.paragliding.title'),
-      desc: t('activities.paragliding.desc'),
-      tag: t('activities.paragliding.tag'),
-      image: '/images/paragliding.webp',
-    },
-    {
-      id: 'trekking',
-      icon: <Mountain className="w-6 h-6 text-orange-500" />,
-      title: t('activities.trekking.title'),
-      desc: t('activities.trekking.desc'),
-      tag: t('activities.trekking.tag'),
-      image: '/images/trekking.webp',
+      id: 'construction',
+      icon: <Hammer className="w-6 h-6 text-red-500" />,
+      title: t('activities.construction.title'),
+      desc: t('activities.construction.desc'),
+      tag: t('activities.construction.tag'),
     },
   ];
 
   return (
-    <section id="tourism" className="relative w-full py-24 bg-[#0D131A] text-white">
-      <div className="container mx-auto px-6 md:px-12 max-w-7xl">
+    <section id="turismo-aventura" className="relative w-full py-24 bg-[#0D131A] text-white overflow-hidden">
+      
+      {/* Luz difusa de fondo */}
+      <div className="absolute top-1/3 left-0 w-[500px] h-[500px] bg-red-600/5 rounded-full blur-[140px] pointer-events-none" />
+
+      <div className="relative z-10 container mx-auto px-6 md:px-12 max-w-7xl">
         
-        {/* Encabezado */}
+        {/* Encabezado de Sección */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
-            <span className="text-orange-500 font-bold uppercase tracking-widest text-sm">
+            <span className="text-red-500 font-extrabold uppercase tracking-widest text-xs sm:text-sm px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/20 inline-block mb-3">
               {t('badge')}
             </span>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mt-2 tracking-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
               {t('heading')}
             </h2>
           </div>
@@ -85,9 +78,9 @@ export default function AdventureServices() {
           </p>
         </div>
 
-        {/* Grid de Actividades */}
+        {/* Grid de 3 Tarjetas Principales sin imagen */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -97,39 +90,39 @@ export default function AdventureServices() {
             <motion.div
               key={act.id}
               variants={cardVariants}
-              className="group relative rounded-3xl overflow-hidden bg-[#131B24] border border-white/10 hover:border-orange-500/40 transition-all duration-300 flex flex-col justify-between min-h-[380px]"
+              className="group relative rounded-3xl p-8 bg-[#131B24] border border-white/10 hover:border-red-600/50 transition-all duration-300 flex flex-col justify-between shadow-2xl hover:shadow-red-900/10 hover:-translate-y-1"
             >
-              {/* Imagen de Fondo si existe con overlay */}
-              <div className="absolute inset-0 z-0 bg-gradient-to-t from-[#0A0F14] via-[#0A0F14]/70 to-transparent z-10" />
-              
               {/* Contenido Superior */}
-              <div className="relative z-20 p-8">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="p-3 rounded-2xl bg-black/40 backdrop-blur-md border border-white/10">
+              <div>
+                <div className="flex items-center justify-between mb-6">
+                  <div className="p-3.5 rounded-2xl bg-[#0D131A] border border-white/5 group-hover:border-red-500/30 group-hover:bg-red-950/20 transition-all">
                     {act.icon}
                   </div>
-                  <span className="text-xs font-bold px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 border border-orange-500/30">
+                  <span className="text-xs font-bold px-3.5 py-1.5 rounded-full bg-red-600/10 text-red-400 border border-red-500/20 uppercase tracking-wider">
                     {act.tag}
                   </span>
                 </div>
-                <h3 className="text-2xl font-extrabold text-white mb-3 group-hover:text-orange-400 transition-colors">
+
+                <h3 className="text-2xl font-black text-white mb-3 group-hover:text-red-500 transition-colors tracking-tight">
                   {act.title}
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed max-w-md">
+                <p className="text-gray-400 text-sm leading-relaxed mb-8">
                   {act.desc}
                 </p>
               </div>
 
-              {/* Contenido Inferior - Action */}
-              <div className="relative z-20 px-8 pb-8 pt-4">
+              {/* Contenido Inferior - Botón/CTA */}
+              <div className="pt-4 border-t border-white/5">
                 <a
                   href={whatsappUrl(act.title)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-bold text-orange-400 hover:text-orange-300 transition-all group-hover:translate-x-1"
+                  className="inline-flex items-center gap-2.5 text-sm font-bold text-white hover:text-red-500 transition-all duration-300 group-hover:translate-x-1 uppercase tracking-wider"
                 >
-                  {t('ctaCard')}
-                  <ArrowRight className="w-4 h-4" />
+                  <span>{t('ctaCard')}</span>
+                  <div className="p-2 rounded-full bg-red-600/10 border border-red-500/20 group-hover:bg-red-600 group-hover:text-white transition-all">
+                    <ArrowRight className="w-4 h-4" />
+                  </div>
                 </a>
               </div>
             </motion.div>

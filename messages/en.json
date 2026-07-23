@@ -25,152 +25,143 @@
     "whatsappMessage": "Hello Alta Cima, I'm interested in getting a quote for an adventure experience or event."
   },
   "LegacyAuthority": {
-    "badge": "Track Record & Technical Excellence",
-    "heading": "20 Years Pushing Boundaries",
-    "subheading": "We begin a new chapter building upon our solid legacy. Combining passion for outdoor adventure with rigorous safety and technical expertise.",
+    "badge": "Track Record & Technical Backing",
+    "heading": "20 Years Creating Limit-Defying Experiences",
+    "subheading": "We're stepping into a new era by strengthening our legacy. We combine a passion for outdoor adventure with the technical rigor and safety that define us.",
     "stats": {
       "years": {
         "number": "+20",
         "title": "Years of History",
-        "title_alt": "Years of History",
-        "desc": "Designing outdoor structures, corporate events, and regional expeditions."
+        "desc": "Designing rigging, corporate events, and expeditions across the region."
       },
       "games": {
         "number": "+80",
-        "title": "Team Building Games",
-        "title_alt": "Team Building Games",
-        "desc": "Custom corporate challenges and high-impact adventure activities."
+        "title": "Team Integration Challenges",
+        "desc": "Teamwork dynamics and custom adventure challenges."
       },
       "competitions": {
         "number": "Top",
-        "title": "World-Class Level",
-        "title_alt": "World-Class Level",
-        "desc": "Team members competing in global ITRA and Petzl Rope Trip events."
+        "title": "High-Altitude Competitions",
+        "desc": "Active participation in national and international rope access, arborism, and rescue competitions."
       },
       "safety": {
         "number": "100%",
-        "title": "Safety Record",
-        "title_alt": "Safety Record",
-        "desc": "Strict standards and certified equipment for industrial and event rigging."
+        "title": "Guaranteed Safety",
+        "desc": "Strict standards and certified equipment for vertical work, arborism, and extreme events."
       }
     },
     "banner": {
-      "title": "World-Class Technical Rigor",
-      "description": "Our instructors and technicians have proven skills in international rope access and rescue competitions, ensuring zero-risk operations."
+      "title": "World-Class Technical Experience",
+      "description": "Our instructors and technicians have been tested in national and international rope access, arborism, and rescue competitions (such as Petzl Rope Trip), ensuring every rigging setup, industrial project, and adventure expedition is flawless."
     }
   },
   "AdventureServices": {
-    "badge": "Pillar 01 — Adventure Tourism",
-    "heading": "Explore Uncharted Territories",
-    "subheading": "We design guided expeditions with top-tier safety standards, certified guides, and high-end gear.",
-    "ctaCard": "Check upcoming dates",
-    "whatsappPrefix": "Hello Alta Cima, I would like information about the activity:",
+    "badge": "Pillar 01 — Tourism & Adventure Construction",
+    "heading": "Experiences and Infrastructure at the Limit",
+    "subheading": "From pure adrenaline day trips to multi-day adventure routes and certified infrastructure engineering with maximum safety.",
+    "ctaCard": "Consult options and get a quote",
+    "whatsappPrefix": "Hello Alta Cima, I would like to request information about",
     "activities": {
-      "waterfalls": {
-        "title": "Waterfall Canyoning",
-        "desc": "Experience the thrill of rappelling down waterfalls with certified ropes and safety protocols.",
-        "tag": "Pure Adrenaline"
+      "daytrip": {
+        "title": "Adventure Day Trips",
+        "desc": "Choose your one-day challenge: from rock climbing and technical hiking to the thrill of waterfall rappelling (canyoning). Guided outings with certified equipment and personalized attention.",
+        "tag": "1 Day / Choose Your Experience"
       },
-      "caving": {
-        "title": "Caving & Speleology",
-        "desc": "Venture into underground caves exploring natural rock formations and subterranean passages.",
-        "tag": "Subterranean World"
+      "expeditions": {
+        "title": "Adventure Expeditions",
+        "desc": "Multi-day treks and routes designed to your specifications. Explore canyons, torrents, and unconventional landscapes with field logistics, campsites, and specialized guides.",
+        "tag": "Multi-Day / Custom Tailored"
       },
-      "paragliding": {
-        "title": "Paragliding Flights",
-        "desc": "Soar over mountain landscapes with highly experienced tandem certified pilots.",
-        "tag": "Tandem Flights"
-      },
-      "trekking": {
-        "title": "Mountain Trekking",
-        "desc": "Challenging trails and breathtaking views guided by wilderness specialists.",
-        "tag": "High Altitude"
+      "construction": {
+        "title": "Adventure Park Construction",
+        "desc": "Engineering, design, and safe installation of climbing walls, canopy lines, ziplines, suspension bridges, and high-rope courses under international standards.",
+        "tag": "Engineering & Installation"
       }
     }
   },
   "B2BEvents": {
     "badge": "Pillar 02 — Corporate & B2B Events",
-    "heading": "Mobile Adventure Rigging & Team Building",
-    "subheading": "We bring high-adrenaline adventure directly to your corporate facilities, venues, or outdoor sites. Tailored team dynamics for real organizational impact.",
-    "ctaButton": "Get Corporate Quote",
-    "whatsappMessage": "Hello Alta Cima, I would like to request a quote for a corporate event or mobile adventure rigging.",
+    "heading": "High-Impact Challenges for Teams",
+    "subheading": "We design and execute temporary setups, team-working dynamics, and corporate adventure challenges with maximum safety and technical rigor.",
+    "whatsappMessage": "Hello Alta Cima, I'm interested in a quote for a corporate activity / B2B event.",
+    "ctaButton": "Request Corporate Event Quote",
     "statCard": {
-      "title": "+80 Team Building Challenges",
-      "subtitle": "Custom activity portfolio",
-      "desc": "An extensive battery of strategic and physical challenges designed to foster leadership, trust, and team cohesion."
-    },
-    "features": {
-      "item1": "On-site setup anywhere",
-      "item2": "Full insurance & safety compliance",
-      "item3": "Certified group facilitators",
-      "item4": "Certified rigging & gear"
+      "title": "Tailored Solutions",
+      "subtitle": "For Companies & Brands",
+      "desc": "We adapt vertical setups, rope bridges, and group challenges at any location or convention center."
     },
     "cards": {
       "rigging": {
-        "title": "Mobile Rope & Wall Rigging",
-        "desc": "Mobile climbing walls, ziplines, and rope bridges installed under strict safety and engineering standards."
+        "title": "Temporary Setups & Rigging",
+        "desc": "Mobile rope structures, temporary ziplines, and climbing towers designed for brand events and corporate activations."
       },
       "teambuilding": {
-        "title": "Teambuilding Programs",
-        "desc": "Integration circuits aimed at effective communication, problem-solving under pressure, and team motivation."
+        "title": "Integration Games (+80)",
+        "desc": "Over 80 leadership, communication, and trust-building exercises under pressure, led by experienced facilitators."
       },
       "custom": {
-        "title": "Customized Event Logistics",
-        "desc": "We adapt activities and setups based on participant count, available space, and corporate goals.",
-        "highlight": "Customized depending on venue and terrain."
+        "title": "Logistics & 100% Safety",
+        "desc": "Comprehensive risk management, assistance policies, and certified staff to ensure a seamless experience.",
+        "highlight": "Certified Operation Nationwide"
       }
+    },
+    "features": {
+      "item1": "Certified structures and anchors",
+      "item2": "Technical staff trained in rescue",
+      "item3": "Pre-site assessment of terrain and risks",
+      "item4": "Flexible logistics for indoor or outdoor venues"
     }
   },
   "IndustrialRope": {
-    "badge": "Pillar 03 — Industrial Access",
-    "heading": "Rope Access & High-Altitude Services",
-    "subheading": "Bringing competitive technical excellence (Petzl / ITRA) to the industrial and construction sectors with zero-margin safety.",
-    "whatsappIndustrialMessage": "Hello Alta Cima, I would like information regarding industrial rope access services.",
-    "whatsappGearMessage": "Hello Alta Cima, I would like to see the catalog of specialized high-altitude clothing.",
+    "badge": "Pillar 03 — Industrial Work",
+    "heading": "Rope Access & High-Altitude Solutions",
+    "subheading": "We bring our competition-level technical rigor (Petzl / ITRA) to the industrial and construction sectors with absolute precision.",
+    "whatsappIndustrialMessage": "Hello Alta Cima, I need information about industrial high-altitude work services.",
+    "whatsappGearMessage": "Hello Alta Cima, I would like to see the catalog of specialized clothing for working at height.",
     "services": {
       "access": {
-        "title": "Difficult Access Solutions",
-        "desc": "Technical intervention on complex structures, facades, and confined spaces using advanced rope access positioning."
+        "title": "Difficult Access Work & Installations",
+        "desc": "Technical interventions on complex structures, facades and high-altitude installations using advanced rope positioning techniques."
       },
       "maintenance": {
-        "title": "Inspection & Maintenance",
-        "desc": "Structural assessment, technical cleaning, industrial painting, and repairs high above ground without heavy scaffolding."
+        "title": "Equipment: Sales, Inspection & Maintenance",
+        "desc": "Sale of specialized PPE, periodic inspection and certified maintenance of equipment for rope activities and vertical work."
       },
       "consulting": {
-        "title": "Rigging & Safety Consulting",
-        "desc": "Installation of temporary and permanent lifelines, vertical safety consulting, and custom rescue systems."
+        "title": "Fixed Climbing Walls & Rigging",
+        "desc": "Design and construction of fixed climbing walls, installation of temporary or permanent lifelines and assembly of rescue systems."
       }
     },
-    "gearBadge": "Alta Cima Apparel",
-    "gearTitle": "Specialized Apparel for Rope Access & Outdoors",
-    "gearDesc": "We design heavy-duty pants and technical hoodies tested in extreme conditions. Flexible, abrasion-resistant, and harness-compatible design.",
+    "gearBadge": "Alta Cima Gear",
+    "gearTitle": "Specialized Clothing for Vertical Work & Adventure",
+    "gearDesc": "We design and manufacture high-performance pants and hoodies tested in extreme conditions. Flexibility, abrasion resistance and ergonomics designed for harness use.",
     "gearItems": {
-      "pants": "Heavy-Duty Work Pants",
+      "pants": "High-Resistance Pants",
       "hoodies": "Ergonomic Thermal Hoodies",
-      "durability": "Abrasion-Resistant Fabric"
+      "durability": "Anti-Abrasion Reinforcements"
     },
-    "gearCta": "View Apparel Catalog"
+    "gearCta": "View Clothing Catalog"
   },
   "LeadForm": {
     "badge": "Direct Contact",
-    "heading": "Request Information or a Quote",
-    "subheading": "Fill in your details and a WhatsApp chat will automatically open with a pre-formatted message.",
+    "heading": "Let's Talk About Your Next Project",
+    "subheading": "Fill out the form and we'll direct you to WhatsApp with the information ready to request a quote.",
     "labels": {
-      "name": "Full Name or Company",
+      "name": "Full Name",
       "phone": "Phone / WhatsApp",
-      "service": "Which service are you interested in?",
-      "notes": "Additional details or specific needs"
+      "service": "Service or Area of Interest",
+      "notes": "Additional details or specific requirements"
     },
     "placeholders": {
-      "name": "E.g. John Doe / Company Inc.",
-      "phone": "+1 555 000 0000",
-      "notes": "Tell us estimated dates, group size, or project specifications..."
+      "name": "e.g. John Doe",
+      "phone": "e.g. +1 555 123 4567",
+      "notes": "Tell us about dates, number of people, location, or specific needs..."
     },
     "options": {
-      "tourism": "Adventure Tourism (Waterfalls, Caving, Paragliding, Trekking)",
-      "events": "Corporate Events / Mobile Adventure Rigging / Teambuilding",
-      "industrial": "Industrial Access / Rope Work",
-      "gear": "Specialized Outdoor & Rope Access Clothing Catalog"
+      "tourism": "Tourism & Adventure Construction (Day trips / Excursions)",
+      "events": "Corporate & B2B Events (Teambuilding / Rigging)",
+      "industrial": "Industrial Work, Maintenance & Equipment",
+      "gear": "Clothing & Specialized Equipment"
     },
     "submitButton": "Send Request via WhatsApp"
   },
