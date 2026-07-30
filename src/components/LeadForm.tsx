@@ -1,11 +1,15 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { MessageCircle, User, Phone, HelpCircle, ChevronDown } from 'lucide-react';
 
-export default function LeadForm() {
+interface LeadFormProps {
+  defaultCategory?: 'adventure' | 'professional' | null;
+}
+
+export default function LeadForm({ defaultCategory }: LeadFormProps) {
   const t = useTranslations('LeadForm');
 
   const [formData, setFormData] = useState({
@@ -14,6 +18,15 @@ export default function LeadForm() {
     service: 'tourism', // 'tourism' | 'events' | 'industrial' | 'gear'
     notes: '',
   });
+
+  // Sincronizar el servicio seleccionado por defecto según la categoría principal recibida
+  useEffect(() => {
+    if (defaultCategory === 'adventure') {
+      setFormData((prev) => ({ ...prev, service: 'events' }));
+    } else if (defaultCategory === 'professional') {
+      setFormData((prev) => ({ ...prev, service: 'industrial' }));
+    }
+  }, [defaultCategory]);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
@@ -27,7 +40,7 @@ export default function LeadForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Mapeo del servicio seleccionado para el texto del mensaje
+    // Mapeo del servicio seleccionado para el texto del mensaje usando i18n
     const serviceLabels: Record<string, string> = {
       tourism: t('options.tourism'),
       events: t('options.events'),
@@ -36,14 +49,24 @@ export default function LeadForm() {
     };
 
     const selectedServiceLabel = serviceLabels[formData.service] || formData.service;
+    
+    // Mapeo de la categoría dinámicamente desde traducciones
+    const categoryLabel = defaultCategory === 'adventure' 
+      ? t('whatsapp.categories.adventure') 
+      : defaultCategory === 'professional' 
+        ? t('whatsapp.categories.professional') 
+        : t('whatsapp.categories.general');
+
+    const detailsText = formData.notes.trim() ? formData.notes : t('whatsapp.noDetails');
 
     // Construcción del mensaje estructurado para WhatsApp
     const message = 
-`📌 *NUEVA SOLICITUD DE COTIZACIÓN - ALTA CIMA*
-👤 *Nombre:* ${formData.name}
-📞 *Teléfono:* ${formData.phone}
-🎯 *Servicio de Interés:* ${selectedServiceLabel}
-💬 *Detalles / Mensaje:* ${formData.notes || 'Sin detalles adicionales'}`;
+    `${t('whatsapp.templateHeader')}
+    ${t('whatsapp.pillarLabel')} ${categoryLabel}
+    ${t('whatsapp.nameLabel')} ${formData.name}
+    ${t('whatsapp.phoneLabel')} ${formData.phone}
+    ${t('whatsapp.serviceLabel')} ${selectedServiceLabel}
+    ${t('whatsapp.notesLabel')} ${detailsText}`;
 
     const whatsappUrl = `https://wa.me/573146594963?text=${encodeURIComponent(message)}`;
 

@@ -10,7 +10,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
 
-  // Hook de traducción apuntando a la sección 'Navbar' del JSON
+  // Hook de traducción
   const t = useTranslations('Navbar');
 
   // Cambiar el idioma dinámicamente en las rutas
@@ -20,11 +20,10 @@ export default function Navbar() {
     router.push(newPath || `/${newLocale}`);
   };
 
+  // Enlaces adaptados a los contenedores reales existentes en la landing
   const navLinks = [
-    { href: '#trayectoria', label: t('nav.legacy') },
-    { href: '#turismo-aventura', label: t('nav.tourism') },
-    { href: '#eventos-b2b', label: t('nav.events') },
-    { href: '#industrial', label: t('nav.industrial') },
+    { href: '#hero', label: t('nav.legacy') },
+    { href: '#pilares', label: t('nav.services') },
     { href: '#contacto', label: t('nav.contact') },
   ];
 

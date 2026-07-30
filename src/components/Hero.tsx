@@ -38,7 +38,7 @@ export default function Hero() {
   )}`;
 
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-start pt-28 sm:pt-36 pb-16 overflow-hidden bg-[#0D131A]">
+    <section id="hero" className="relative w-full min-h-screen flex items-center justify-start pt-28 sm:pt-36 pb-16 overflow-hidden bg-[#0D131A]">
       
       {/* Imagen de Fondo Optimizada + Overlays de Lectura */}
       <div className="absolute inset-0 z-0">
