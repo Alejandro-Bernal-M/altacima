@@ -99,7 +99,7 @@ export default function Hero() {
 
           {/* Botón Secundario */}
           <a
-            href="#contact"
+            href="#contacto"
             className="flex items-center gap-2 text-base md:text-lg font-semibold text-gray-200 hover:text-white px-6 py-3.5 rounded-full border border-white/20 hover:border-white/50 bg-white/5 hover:bg-white/10 backdrop-blur-sm transition-all duration-300 uppercase tracking-wider"
           >
             {t('secondaryCta')}
