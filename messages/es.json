@@ -27,7 +27,7 @@
     "heading": "¿Qué experiencia estás buscando?",
     "selectInstruction": "Haz clic para seleccionar tu experiencia",
     "adventure": {
-      "title": "AVENTURA ITINERANTE",
+      "title": "AVENTURA",
       "subtitle": "Eventos Itinerantes, Turismo & Parques",
       "tag": "+80 Actividades disponibles",
       "desc": "Montajes temporales para eventos, teambuilding corporativo, pasadías y diseño de atracciones de aventura."
@@ -42,7 +42,7 @@
   "AdventureServices": {
     "badge": "Aventura & Eventos",
     "heading": "Experiencias al Límite & Aventura Itinerante",
-    "subheading": "Llevamos la adrenalina a donde estés con estructuras certificadas, más de 80 dinámicas de trabajo en quipo y turismo guiado.",
+    "subheading": "Llevamos la adrenalina a donde estés con estructuras certificadas, más de 80 dinámicas de trabajo en equipo y turismo guiado.",
     "navigation": {
       "currentLocation": "Estás en:",
       "categoryName": "Aventura & Eventos",

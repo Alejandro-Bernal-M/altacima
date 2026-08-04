@@ -26,7 +26,7 @@ export default function IndustrialPillar({
   const tLegacy = useTranslations('LegacyAuthority');
 
   return (
-    <section id="pilar-contenido" className="w-full bg-[#0D131A] py-12 px-4 sm:px-6 lg:px-8 border-t border-white/10 animate-fade-in">
+    <section id="pilares" className="w-full bg-[#0D131A] py-12 px-4 sm:px-6 lg:px-8 border-t border-white/10 animate-fade-in">
       
       {/* BARRA SUPERIOR DE NAVEGACIÓN Y REFERENCIA */}
       <div className="max-w-7xl mx-auto mb-10 flex flex-wrap items-center justify-between gap-4 bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md">
